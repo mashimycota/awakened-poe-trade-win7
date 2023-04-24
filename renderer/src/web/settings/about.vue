@@ -29,6 +29,7 @@
 import { defineComponent, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { Host } from '@/web/background/IPC'
+import { AppConfig } from '@/web/Config'
 import { DateTime } from 'luxon'
 
 function checkForUpdates () {
@@ -73,8 +74,8 @@ export default defineComponent({
         case 'update-downloaded':
           return { str1: t('updates.available', [rawInfo.version]), str2: t('updates.installed_on_exit'), action: quitAndInstall, actionText: t('updates.install_now') }
         case 'update-available':
-          return (rawInfo.noDownloadReason)
-            ? { str1: t('updates.available', [rawInfo.version]), str2: (rawInfo.noDownloadReason === 'not-supported') ? t('updates.download_manually') : t('updates.download_disabled'), action: openDownloadPage, actionText: t('updates.downloads_page') }
+          return (Host.isPortable.value || AppConfig().disableUpdateDownload)
+            ? { str1: t('updates.available', [rawInfo.version]), str2: (Host.isPortable.value) ? t('updates.download_manually') : t('updates.download_disabled'), action: openDownloadPage, actionText: t('updates.downloads_page') }
             : { str1: t('updates.available', [rawInfo.version]), str2: t('updates.downloading') }
       }
     })

@@ -113,6 +113,7 @@ export interface Config {
   realm: 'pc-ggg' | 'pc-garena'
   widgets: widget.Widget[]
   fontSize: number
+  disableUpdateDownload: boolean
   showAttachNotification: boolean
 }
 
@@ -157,6 +158,7 @@ export const defaultConfig = (): Config => ({
   language: 'en',
   realm: 'pc-ggg',
   fontSize: 16,
+  disableUpdateDownload: false,
   widgets: [
     // --- REQUIRED ---
     {
@@ -672,6 +674,7 @@ function getConfigForHost (): HostConfig {
     stashScroll: config.stashScroll,
     overlayKey: config.overlayKey,
     logKeys: config.logKeys,
+    disableUpdateDownload: config.disableUpdateDownload,
     windowTitle: config.windowTitle,
     language: config.language
   }

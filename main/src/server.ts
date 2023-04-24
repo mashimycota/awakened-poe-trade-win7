@@ -109,6 +109,7 @@ export async function startServer (
       const resBody: HostState = {
         version: app.getVersion(),
         updater: appUpdater.info,
+	portable: Boolean(process.env.PORTABLE_EXECUTABLE_DIR),
         contents: await configStore.load()
       }
       res.end(JSON.stringify(resBody))

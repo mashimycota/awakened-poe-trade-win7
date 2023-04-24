@@ -6,6 +6,7 @@ export interface HostConfig {
   stashScroll: boolean
   overlayKey: string
   logKeys: boolean
+  disableUpdateDownload: boolean
   windowTitle: string
   language: string
 }
@@ -41,11 +42,7 @@ export type UpdateInfo =
   {
     state: 'initial' | 'checking-for-update'
   } | {
-    state: 'update-available'
-    version: string
-    noDownloadReason: 'not-supported' | 'disabled-by-flag' | null
-  } | {
-    state: 'update-downloaded'
+    state: 'update-available' | 'update-downloaded'
     version: string
   } | {
     state: 'update-not-available' | 'error'
@@ -55,6 +52,7 @@ export type UpdateInfo =
 export interface HostState {
   contents: string | null
   version: string
+  portable: boolean
   updater: UpdateInfo
 }
 
