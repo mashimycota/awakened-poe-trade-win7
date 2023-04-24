@@ -7,6 +7,7 @@ class HostTransport {
   private socket!: Sockette
   logs = shallowRef('')
   version = shallowRef('0.0.00000')
+  isPortable = shallowRef(false)
   updateInfo = shallowRef<UpdateInfo>({ state: 'initial' })
 
   async init () {
@@ -57,6 +58,7 @@ class HostTransport {
     // TODO: refactor this
     this.version.value = config.version
     this.updateInfo.value = config.updater
+    this.isPortable.value = config.portable
     return config.contents
   }
 
