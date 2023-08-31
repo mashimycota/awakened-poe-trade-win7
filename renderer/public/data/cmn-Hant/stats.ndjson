@@ -103,13 +103,6 @@
 {"ref":"#% Base Defence Percentile","better":1,"matchers":[{"string":"#% 基礎防禦百分比 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_base_defence_percentile"]}}}
 {"ref":"#% chance for Bleeding inflicted with this Weapon to deal 100% more Damage","better":1,"matchers":[{"string":"使用此武器攻擊所造成的流血有 #% 機率使流血造成 100% 更多傷害"}],"trade":{"ids":{"explicit":["explicit.stat_1560880986"]}}}
 {"ref":"#% chance for Discharge to deal Damage without removing Charges","better":1,"matchers":[{"string":"解放有 #% 機率在造成傷害時不移除能量球"},{"string":"解放造成傷害時不移除能量球","value":100}],"trade":{"ids":{"enchant":["enchant.stat_1833626118"]}}}
-{"ref":"#% chance for dropped Maps to convert to Atlas Memories","better":1,"matchers":[{"string":"掉落的地圖有 #% 機率轉化至輿圖記憶 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_map_conversion_memory_line"]}}}
-{"ref":"#% chance for dropped Maps to convert to Conqueror Maps","better":1,"matchers":[{"string":"掉落的地圖有 #% 機率轉化至征服者地圖 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_map_conversion_conqueror_map"]}}}
-{"ref":"#% chance for dropped Maps to convert to Elder Maps","better":1,"matchers":[{"string":"掉落的地圖有 #% 機率轉化至尊師地圖 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_map_conversion_elder_map"]}}}
-{"ref":"#% chance for dropped Maps to convert to Maven Invitations","better":1,"matchers":[{"string":"掉落的地圖有 #% 機率轉化至釋界之邀 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_map_conversion_maven_invitation"]}}}
-{"ref":"#% chance for dropped Maps to convert to Scarabs","better":1,"matchers":[{"string":"#% chance for dropped Maps to convert to Scarabs "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_map_conversion_scarab"]}}}
-{"ref":"#% chance for dropped Maps to convert to Shaper Maps","better":1,"matchers":[{"string":"掉落的地圖有 #% 機率轉化至塑界者地圖 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_map_conversion_shaper_map"]}}}
-{"ref":"#% chance for dropped Maps to convert to Unique Maps","better":1,"matchers":[{"string":"掉落的地圖有 #% 機率轉化至傳奇地圖 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_map_conversion_unique_map"]}}}
 {"ref":"#% chance for Elemental Resistances to count as being 90% against Enemy Hits","better":1,"matchers":[{"string":"有 #% 機率使元素抗性以 90% 的值對抗敵人的擊中"},{"string":"使元素抗性以 90% 的值對抗敵人的擊中","value":100}],"trade":{"ids":{"explicit":["explicit.stat_204458505"]}}}
 {"ref":"#% chance for Energy Shield Recharge to start when you Block","better":1,"matchers":[{"string":"當你格擋時，有 #% 機率開始充能能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_762154651"]}}}
 {"ref":"#% chance for Energy Shield Recharge to start when you Kill an Enemy","better":1,"matchers":[{"string":"當你擊殺敵人時，有 #% 機率開始充能能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_1618482990"]}}}
@@ -1879,293 +1872,293 @@
 {"ref":"+# to Evasion Rating while you have Phasing","better":1,"matchers":[{"string":"你有迷蹤時，# 閃避值"}],"trade":{"ids":{"enchant":["enchant.stat_3169671355"]}}}
 {"ref":"+# to Global Evasion Rating while moving","better":1,"matchers":[{"string":"移動時 # 全域閃避值"}],"trade":{"ids":{"implicit":["implicit.stat_3825877290"]}}}
 {"ref":"+# to Intelligence","better":1,"matchers":[{"string":"# 智慧"}],"trade":{"ids":{"explicit":["explicit.stat_328541901"],"implicit":["implicit.stat_328541901"],"fractured":["fractured.stat_328541901"],"scourge":["scourge.stat_328541901"],"crafted":["crafted.stat_328541901"]}}}
-{"ref":"+# to Level of all Absolution Gems","better":1,"matchers":[{"string":"全部 赦免 寶石等級 #","advanced":"全部 赦免(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_251"]}}}
-{"ref":"+# to Level of all Alchemist's Mark Gems","better":1,"matchers":[{"string":"全部 煉金術士印記 寶石等級 #","advanced":"全部 煉金術士印記(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_270"]}}}
-{"ref":"+# to Level of all Ambush Gems","better":1,"matchers":[{"string":"全部 伏擊 寶石等級 #","advanced":"全部 伏擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_248"]}}}
-{"ref":"+# to Level of all Ancestral Cry Gems","better":1,"matchers":[{"string":"全部 先祖戰吼 寶石等級 #","advanced":"全部 先祖戰吼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_222"]}}}
-{"ref":"+# to Level of all Ancestral Protector Gems","better":1,"matchers":[{"string":"全部 先祖衛士 寶石等級 #","advanced":"全部 先祖衛士(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_149"]}}}
-{"ref":"+# to Level of all Ancestral Warchief Gems","better":1,"matchers":[{"string":"全部 先祖戰士長 寶石等級 #","advanced":"全部 先祖戰士長(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_150"]}}}
-{"ref":"+# to Level of all Anger Gems","better":1,"matchers":[{"string":"全部 憤怒 寶石等級 #","advanced":"全部 憤怒(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_68"]}}}
-{"ref":"+# to Level of all Animate Guardian Gems","better":1,"matchers":[{"string":"全部 幻化守衛 寶石等級 #","advanced":"全部 幻化守衛(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_95"]}}}
-{"ref":"+# to Level of all Animate Weapon Gems","better":1,"matchers":[{"string":"全部 幻化武器 寶石等級 #","advanced":"全部 幻化武器(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_97"]}}}
-{"ref":"+# to Level of all Arc Gems","better":1,"matchers":[{"string":"全部 電弧 寶石等級 #","advanced":"全部 電弧(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_61"]}}}
-{"ref":"+# to Level of all Arcane Cloak Gems","better":1,"matchers":[{"string":"全部 秘能披風 寶石等級 #","advanced":"全部 秘能披風(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_220"]}}}
-{"ref":"+# to Level of all Arcanist Brand Gems","better":1,"matchers":[{"string":"全部 奧術烙印 寶石等級 #","advanced":"全部 奧術烙印(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_225"]}}}
-{"ref":"+# to Level of all Arctic Armour Gems","better":1,"matchers":[{"string":"全部 極地裝甲 寶石等級 #","advanced":"全部 極地裝甲(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_81"]}}}
-{"ref":"+# to Level of all Armageddon Brand Gems","better":1,"matchers":[{"string":"全部 末日烙印 寶石等級 #","advanced":"全部 末日烙印(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_182"]}}}
-{"ref":"+# to Level of all Artillery Ballista Gems","better":1,"matchers":[{"string":"全部 火砲砲塔 寶石等級 #","advanced":"全部 火砲砲塔(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_213"]}}}
-{"ref":"+# to Level of all Assassin's Mark Gems","better":1,"matchers":[{"string":"全部 刺客印記 寶石等級 #","advanced":"全部 刺客印記(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_43"]}}}
-{"ref":"+# to Level of all Ball Lightning Gems","better":1,"matchers":[{"string":"全部 天雷之珠 寶石等級 #","advanced":"全部 天雷之珠(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_104"]}}}
-{"ref":"+# to Level of all Bane Gems","better":1,"matchers":[{"string":"全部 災厄 寶石等級 #","advanced":"全部 災厄(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_190"]}}}
-{"ref":"+# to Level of all Barrage Gems","better":1,"matchers":[{"string":"全部 彈幕 寶石等級 #","advanced":"全部 彈幕(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_103"]}}}
-{"ref":"+# to Level of all Battlemage's Cry Gems","better":1,"matchers":[{"string":"全部 戰法戰吼 寶石等級 #","advanced":"全部 戰法戰吼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_250"]}}}
-{"ref":"+# to Level of all Bear Trap Gems","better":1,"matchers":[{"string":"全部 捕熊陷阱 寶石等級 #","advanced":"全部 捕熊陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_76"]}}}
-{"ref":"+# to Level of all Berserk Gems","better":1,"matchers":[{"string":"全部 狂戰 寶石等級 #","advanced":"全部 狂戰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_200"]}}}
-{"ref":"+# to Level of all Blade Blast Gems","better":1,"matchers":[{"string":"全部 劍刃爆破 寶石等級 #","advanced":"全部 劍刃爆破(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_217"]}}}
-{"ref":"+# to Level of all Blade Flurry Gems","better":1,"matchers":[{"string":"全部 刀鋒亂舞 寶石等級 #","advanced":"全部 刀鋒亂舞(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_157"]}}}
-{"ref":"+# to Level of all Blade Trap Gems","better":1,"matchers":[{"string":"全部 刀鋒陷阱 寶石等級 #","advanced":"全部 刀鋒陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_255"]}}}
-{"ref":"+# to Level of all Blade Vortex Gems","better":1,"matchers":[{"string":"全部 飛刃風暴 寶石等級 #","advanced":"全部 飛刃風暴(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_138"]}}}
-{"ref":"+# to Level of all Bladefall Gems","better":1,"matchers":[{"string":"全部 虛空刀雨 寶石等級 #","advanced":"全部 虛空刀雨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_136"]}}}
-{"ref":"+# to Level of all Bladestorm Gems","better":1,"matchers":[{"string":"全部 旋天劍舞 寶石等級 #","advanced":"全部 旋天劍舞(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_198"]}}}
-{"ref":"+# to Level of all Blast Rain Gems","better":1,"matchers":[{"string":"全部 爆裂箭雨 寶石等級 #","advanced":"全部 爆裂箭雨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_135"]}}}
-{"ref":"+# to Level of all Blazing Salvo Gems","better":1,"matchers":[{"string":"全部 熾熱魔炮 寶石等級 #","advanced":"全部 熾熱魔炮(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_232"]}}}
-{"ref":"+# to Level of all Blight Gems","better":1,"matchers":[{"string":"全部 邪風 寶石等級 #","advanced":"全部 邪風(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_155"]}}}
-{"ref":"+# to Level of all Blink Arrow Gems","better":1,"matchers":[{"string":"全部 閃現射擊 寶石等級 #","advanced":"全部 閃現射擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_120"]}}}
-{"ref":"+# to Level of all Blood and Sand Gems","better":1,"matchers":[{"string":"全部 血腥沙戮 寶石等級 #","advanced":"全部 血腥沙戮(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_199"]}}}
-{"ref":"+# to Level of all Blood Rage Gems","better":1,"matchers":[{"string":"全部 鮮血狂怒 寶石等級 #","advanced":"全部 鮮血狂怒(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_23"]}}}
-{"ref":"+# to Level of all Bodyswap Gems","better":1,"matchers":[{"string":"全部 屍術傳送 寶石等級 #","advanced":"全部 屍術傳送(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_162"]}}}
-{"ref":"+# to Level of all Bone Offering Gems","better":1,"matchers":[{"string":"全部 骸骨奉獻 寶石等級 #","advanced":"全部 骸骨奉獻(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_109"]}}}
-{"ref":"+# to Level of all Boneshatter Gems","better":1,"matchers":[{"string":"全部 碎骨 寶石等級 #","advanced":"全部 碎骨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_247"]}}}
-{"ref":"+# to Level of all Brand Recall Gems","better":1,"matchers":[{"string":"全部 烙印呼喚 寶石等級 #","advanced":"全部 烙印呼喚(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_183"]}}}
-{"ref":"+# to Level of all Burning Arrow Gems","better":1,"matchers":[{"string":"全部 燃燒箭矢 寶石等級 #","advanced":"全部 燃燒箭矢(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_71"]}}}
-{"ref":"+# to Level of all Caustic Arrow Gems","better":1,"matchers":[{"string":"全部 腐蝕箭矢 寶石等級 #","advanced":"全部 腐蝕箭矢(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_18"]}}}
-{"ref":"+# to Level of all Chain Hook Gems","better":1,"matchers":[{"string":"全部 奪魂勾索 寶石等級 #","advanced":"全部 奪魂勾索(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_202"]}}}
+{"ref":"+# to Level of all Absolution Gems","better":1,"matchers":[{"string":"全部 赦免 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_251"]}}}
+{"ref":"+# to Level of all Alchemist's Mark Gems","better":1,"matchers":[{"string":"全部 煉金術士印記 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_270"]}}}
+{"ref":"+# to Level of all Ambush Gems","better":1,"matchers":[{"string":"全部 強襲 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_248"]}}}
+{"ref":"+# to Level of all Ancestral Cry Gems","better":1,"matchers":[{"string":"全部 先祖戰吼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_222"]}}}
+{"ref":"+# to Level of all Ancestral Protector Gems","better":1,"matchers":[{"string":"全部 先祖衛士 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_149"]}}}
+{"ref":"+# to Level of all Ancestral Warchief Gems","better":1,"matchers":[{"string":"全部 先祖戰士長 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_150"]}}}
+{"ref":"+# to Level of all Anger Gems","better":1,"matchers":[{"string":"全部 憤怒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_68"]}}}
+{"ref":"+# to Level of all Animate Guardian Gems","better":1,"matchers":[{"string":"全部 幻化守衛 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_95"]}}}
+{"ref":"+# to Level of all Animate Weapon Gems","better":1,"matchers":[{"string":"全部 幻化武器 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_97"]}}}
+{"ref":"+# to Level of all Arc Gems","better":1,"matchers":[{"string":"全部 電弧 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_61"]}}}
+{"ref":"+# to Level of all Arcane Cloak Gems","better":1,"matchers":[{"string":"全部 背飾：奧秘之力披風 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_220"]}}}
+{"ref":"+# to Level of all Arcanist Brand Gems","better":1,"matchers":[{"string":"全部 奧術烙印 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_225"]}}}
+{"ref":"+# to Level of all Arctic Armour Gems","better":1,"matchers":[{"string":"全部 極地裝甲 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_81"]}}}
+{"ref":"+# to Level of all Armageddon Brand Gems","better":1,"matchers":[{"string":"全部 末日烙印 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_182"]}}}
+{"ref":"+# to Level of all Artillery Ballista Gems","better":1,"matchers":[{"string":"全部 火砲砲塔 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_213"]}}}
+{"ref":"+# to Level of all Assassin's Mark Gems","better":1,"matchers":[{"string":"全部 刺客印記 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_43"]}}}
+{"ref":"+# to Level of all Ball Lightning Gems","better":1,"matchers":[{"string":"全部 天雷之珠 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_104"]}}}
+{"ref":"+# to Level of all Bane Gems","better":1,"matchers":[{"string":"全部 禁域 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_190"]}}}
+{"ref":"+# to Level of all Barrage Gems","better":1,"matchers":[{"string":"全部 連砲 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_103"]}}}
+{"ref":"+# to Level of all Battlemage's Cry Gems","better":1,"matchers":[{"string":"全部 戰法戰吼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_250"]}}}
+{"ref":"+# to Level of all Bear Trap Gems","better":1,"matchers":[{"string":"全部 捕熊陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_76"]}}}
+{"ref":"+# to Level of all Berserk Gems","better":1,"matchers":[{"string":"全部 暴徒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_200"]}}}
+{"ref":"+# to Level of all Blade Blast Gems","better":1,"matchers":[{"string":"全部 劍刃爆破 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_217"]}}}
+{"ref":"+# to Level of all Blade Flurry Gems","better":1,"matchers":[{"string":"全部 刀鋒亂舞 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_157"]}}}
+{"ref":"+# to Level of all Blade Trap Gems","better":1,"matchers":[{"string":"全部 刀鋒陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_255"]}}}
+{"ref":"+# to Level of all Blade Vortex Gems","better":1,"matchers":[{"string":"全部 飛刃風暴 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_138"]}}}
+{"ref":"+# to Level of all Bladefall Gems","better":1,"matchers":[{"string":"全部 虛空刀雨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_136"]}}}
+{"ref":"+# to Level of all Bladestorm Gems","better":1,"matchers":[{"string":"全部 旋天劍舞 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_198"]}}}
+{"ref":"+# to Level of all Blast Rain Gems","better":1,"matchers":[{"string":"全部 爆裂箭雨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_135"]}}}
+{"ref":"+# to Level of all Blazing Salvo Gems","better":1,"matchers":[{"string":"全部 熾熱魔炮 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_232"]}}}
+{"ref":"+# to Level of all Blight Gems","better":1,"matchers":[{"string":"全部 邪風 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_155"]}}}
+{"ref":"+# to Level of all Blink Arrow Gems","better":1,"matchers":[{"string":"全部 閃現射擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_120"]}}}
+{"ref":"+# to Level of all Blood and Sand Gems","better":1,"matchers":[{"string":"全部 血腥沙戮 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_199"]}}}
+{"ref":"+# to Level of all Blood Rage Gems","better":1,"matchers":[{"string":"全部 鮮血狂怒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_23"]}}}
+{"ref":"+# to Level of all Bodyswap Gems","better":1,"matchers":[{"string":"全部 屍術傳送 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_162"]}}}
+{"ref":"+# to Level of all Bone Offering Gems","better":1,"matchers":[{"string":"全部 骸骨奉獻 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_109"]}}}
+{"ref":"+# to Level of all Boneshatter Gems","better":1,"matchers":[{"string":"全部 碎骨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_247"]}}}
+{"ref":"+# to Level of all Brand Recall Gems","better":1,"matchers":[{"string":"全部 烙印呼喚 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_183"]}}}
+{"ref":"+# to Level of all Burning Arrow Gems","better":1,"matchers":[{"string":"全部 燃燒箭矢 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_71"]}}}
+{"ref":"+# to Level of all Caustic Arrow Gems","better":1,"matchers":[{"string":"全部 腐蝕箭矢 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_18"]}}}
+{"ref":"+# to Level of all Chain Hook Gems","better":1,"matchers":[{"string":"全部 奪魂勾索 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_202"]}}}
 {"ref":"+# to Level of all Chaos Skill Gems","better":1,"matchers":[{"string":"全部混沌技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_67169579"],"fractured":["fractured.stat_67169579"]}}}
 {"ref":"+# to Level of all Chaos Spell Skill Gems","better":1,"matchers":[{"string":"全部混沌法術技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_4226189338"],"fractured":["fractured.stat_4226189338"],"scourge":["scourge.stat_4226189338"]}}}
-{"ref":"+# to Level of all Charged Dash Gems","better":1,"matchers":[{"string":"全部 雷霆衝鋒 寶石等級 #","advanced":"全部 雷霆衝鋒(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_158"]}}}
-{"ref":"+# to Level of all Clarity Gems","better":1,"matchers":[{"string":"全部 清晰 寶石等級 #","advanced":"全部 清晰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_72"]}}}
-{"ref":"+# to Level of all Cleave Gems","better":1,"matchers":[{"string":"全部 劈砍 寶石等級 #","advanced":"全部 劈砍(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_6"]}}}
-{"ref":"+# to Level of all Cobra Lash Gems","better":1,"matchers":[{"string":"全部 毒蛇鞭笞 寶石等級 #","advanced":"全部 毒蛇鞭笞(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_206"]}}}
+{"ref":"+# to Level of all Charged Dash Gems","better":1,"matchers":[{"string":"全部 雷霆衝鋒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_158"]}}}
+{"ref":"+# to Level of all Clarity Gems","better":1,"matchers":[{"string":"全部 清晰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_72"]}}}
+{"ref":"+# to Level of all Cleave Gems","better":1,"matchers":[{"string":"全部 劈砍 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_6"]}}}
+{"ref":"+# to Level of all Cobra Lash Gems","better":1,"matchers":[{"string":"全部 毒蛇鞭笞 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_206"]}}}
 {"ref":"+# to Level of all Cold Skill Gems","better":1,"matchers":[{"string":"全部冰冷技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_1078455967"],"fractured":["fractured.stat_1078455967"]}}}
-{"ref":"+# to Level of all Cold Snap Gems","better":1,"matchers":[{"string":"全部 霜暴 寶石等級 #","advanced":"全部 霜暴(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_15"]}}}
+{"ref":"+# to Level of all Cold Snap Gems","better":1,"matchers":[{"string":"全部 霜暴 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_15"]}}}
 {"ref":"+# to Level of all Cold Spell Skill Gems","better":1,"matchers":[{"string":"全部冰冷法術技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_2254480358"],"fractured":["fractured.stat_2254480358"],"scourge":["scourge.stat_2254480358"]}}}
-{"ref":"+# to Level of all Conductivity Gems","better":1,"matchers":[{"string":"全部 導電 寶石等級 #","advanced":"全部 導電(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_85"]}}}
-{"ref":"+# to Level of all Consecrated Path Gems","better":1,"matchers":[{"string":"全部 奉獻之路 寶石等級 #","advanced":"全部 奉獻之路(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_175"]}}}
-{"ref":"+# to Level of all Contagion Gems","better":1,"matchers":[{"string":"全部 瘟疫 寶石等級 #","advanced":"全部 瘟疫(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_139"]}}}
-{"ref":"+# to Level of all Conversion Trap Gems","better":1,"matchers":[{"string":"全部 迷魅陷阱 寶石等級 #","advanced":"全部 迷魅陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_75"]}}}
-{"ref":"+# to Level of all Convocation Gems","better":1,"matchers":[{"string":"全部 號召 寶石等級 #","advanced":"全部 號召(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_111"]}}}
-{"ref":"+# to Level of all Corrupting Fever Gems","better":1,"matchers":[{"string":"全部 腐化潮 寶石等級 #","advanced":"全部 腐化潮(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_239"]}}}
-{"ref":"+# to Level of all Crackling Lance Gems","better":1,"matchers":[{"string":"全部 碎雷電閃 寶石等級 #","advanced":"全部 碎雷電閃(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_233"]}}}
-{"ref":"+# to Level of all Creeping Frost Gems","better":1,"matchers":[{"string":"全部 寒霜滲透 寶石等級 #","advanced":"全部 寒霜滲透(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_19"]}}}
-{"ref":"+# to Level of all Cremation Gems","better":1,"matchers":[{"string":"全部 熔炎送葬 寶石等級 #","advanced":"全部 熔炎送葬(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_161"]}}}
-{"ref":"+# to Level of all Cyclone Gems","better":1,"matchers":[{"string":"全部 旋風斬 寶石等級 #","advanced":"全部 旋風斬(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_87"]}}}
-{"ref":"+# to Level of all Dark Pact Gems","better":1,"matchers":[{"string":"全部 暗夜血契 寶石等級 #","advanced":"全部 暗夜血契(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_159"]}}}
-{"ref":"+# to Level of all Dash Gems","better":1,"matchers":[{"string":"全部 幻步 寶石等級 #","advanced":"全部 幻步(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_197"]}}}
-{"ref":"+# to Level of all Decoy Totem Gems","better":1,"matchers":[{"string":"全部 誘餌圖騰 寶石等級 #","advanced":"全部 誘餌圖騰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_78"]}}}
-{"ref":"+# to Level of all Defiance Banner Gems","better":1,"matchers":[{"string":"全部 反抗之旗 寶石等級 #","advanced":"全部 反抗之旗(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_242"]}}}
-{"ref":"+# to Level of all Desecrate Gems","better":1,"matchers":[{"string":"全部 褻瀆 寶石等級 #","advanced":"全部 褻瀆(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_107"]}}}
-{"ref":"+# to Level of all Despair Gems","better":1,"matchers":[{"string":"全部 絕望 寶石等級 #","advanced":"全部 絕望(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_45"]}}}
-{"ref":"+# to Level of all Destructive Link Gems","better":1,"matchers":[{"string":"全部 連結：破壞 寶石等級 #","advanced":"全部 連結：破壞(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_267"]}}}
-{"ref":"+# to Level of all Determination Gems","better":1,"matchers":[{"string":"全部 堅定 寶石等級 #","advanced":"全部 堅定(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_67"]}}}
-{"ref":"+# to Level of all Detonate Dead Gems","better":1,"matchers":[{"string":"全部 屍體爆破 寶石等級 #","advanced":"全部 屍體爆破(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_17"]}}}
-{"ref":"+# to Level of all Devouring Totem Gems","better":1,"matchers":[{"string":"全部 吞噬圖騰 寶石等級 #","advanced":"全部 吞噬圖騰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_79"]}}}
-{"ref":"+# to Level of all Discharge Gems","better":1,"matchers":[{"string":"全部 解放 寶石等級 #","advanced":"全部 解放(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_25"]}}}
-{"ref":"+# to Level of all Discipline Gems","better":1,"matchers":[{"string":"全部 紀律 寶石等級 #","advanced":"全部 紀律(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_65"]}}}
-{"ref":"+# to Level of all Divine Ire Gems","better":1,"matchers":[{"string":"全部 聖怒 寶石等級 #","advanced":"全部 聖怒(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_191"]}}}
-{"ref":"+# to Level of all Dominating Blow Gems","better":1,"matchers":[{"string":"全部 霸氣之擊 寶石等級 #","advanced":"全部 霸氣之擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_52"]}}}
-{"ref":"+# to Level of all Double Strike Gems","better":1,"matchers":[{"string":"全部 雙重打擊 寶石等級 #","advanced":"全部 雙重打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_9"]}}}
-{"ref":"+# to Level of all Dread Banner Gems","better":1,"matchers":[{"string":"全部 恐懼之旗 寶石等級 #","advanced":"全部 恐懼之旗(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_185"]}}}
-{"ref":"+# to Level of all Dual Strike Gems","better":1,"matchers":[{"string":"全部 雙持打擊 寶石等級 #","advanced":"全部 雙持打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_12"]}}}
-{"ref":"+# to Level of all Earthquake Gems","better":1,"matchers":[{"string":"全部 震地 寶石等級 #","advanced":"全部 震地(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_146"]}}}
-{"ref":"+# to Level of all Earthshatter Gems","better":1,"matchers":[{"string":"全部 碎地重擊 寶石等級 #","advanced":"全部 碎地重擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_228"]}}}
-{"ref":"+# to Level of all Elemental Hit Gems","better":1,"matchers":[{"string":"全部 元素打擊 寶石等級 #","advanced":"全部 元素打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_10"]}}}
-{"ref":"+# to Level of all Elemental Weakness Gems","better":1,"matchers":[{"string":"全部 元素要害 寶石等級 #","advanced":"全部 元素要害(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_39"]}}}
-{"ref":"+# to Level of all Enduring Cry Gems","better":1,"matchers":[{"string":"全部 堅決戰吼 寶石等級 #","advanced":"全部 堅決戰吼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_8"]}}}
-{"ref":"+# to Level of all Energy Blade Gems","better":1,"matchers":[{"string":"全部 能量之刃 寶石等級 #","advanced":"全部 能量之刃(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_260"]}}}
-{"ref":"+# to Level of all Enfeeble Gems","better":1,"matchers":[{"string":"全部 衰弱 寶石等級 #","advanced":"全部 衰弱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_42"]}}}
-{"ref":"+# to Level of all Ensnaring Arrow Gems","better":1,"matchers":[{"string":"全部 誘捕箭矢 寶石等級 #","advanced":"全部 誘捕箭矢(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_215"]}}}
-{"ref":"+# to Level of all Essence Drain Gems","better":1,"matchers":[{"string":"全部 靈魂吸取 寶石等級 #","advanced":"全部 靈魂吸取(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_141"]}}}
-{"ref":"+# to Level of all Ethereal Knives Gems","better":1,"matchers":[{"string":"全部 虛空匕首 寶石等級 #","advanced":"全部 虛空匕首(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_80"]}}}
-{"ref":"+# to Level of all Explosive Arrow Gems","better":1,"matchers":[{"string":"全部 爆炸箭矢 寶石等級 #","advanced":"全部 爆炸箭矢(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_37"]}}}
-{"ref":"+# to Level of all Explosive Concoction Gems","better":1,"matchers":[{"string":"全部 爆裂物 寶石等級 #","advanced":"全部 爆裂物(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_257"]}}}
-{"ref":"+# to Level of all Explosive Trap Gems","better":1,"matchers":[{"string":"全部 爆裂陷阱 寶石等級 #","advanced":"全部 爆裂陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_165"]}}}
-{"ref":"+# to Level of all Exsanguinate Gems","better":1,"matchers":[{"string":"全部 抽血 寶石等級 #","advanced":"全部 抽血(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_238"]}}}
-{"ref":"+# to Level of all Eye of Winter Gems","better":1,"matchers":[{"string":"全部 凜冬之眼 寶石等級 #","advanced":"全部 凜冬之眼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_252"]}}}
+{"ref":"+# to Level of all Conductivity Gems","better":1,"matchers":[{"string":"全部 導電 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_85"]}}}
+{"ref":"+# to Level of all Consecrated Path Gems","better":1,"matchers":[{"string":"全部 奉獻之路 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_175"]}}}
+{"ref":"+# to Level of all Contagion Gems","better":1,"matchers":[{"string":"全部 瘟疫 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_139"]}}}
+{"ref":"+# to Level of all Conversion Trap Gems","better":1,"matchers":[{"string":"全部 迷魅陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_75"]}}}
+{"ref":"+# to Level of all Convocation Gems","better":1,"matchers":[{"string":"全部 號召 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_111"]}}}
+{"ref":"+# to Level of all Corrupting Fever Gems","better":1,"matchers":[{"string":"全部 腐化潮 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_239"]}}}
+{"ref":"+# to Level of all Crackling Lance Gems","better":1,"matchers":[{"string":"全部 碎雷電閃 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_233"]}}}
+{"ref":"+# to Level of all Creeping Frost Gems","better":1,"matchers":[{"string":"全部 寒霜滲透 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_19"]}}}
+{"ref":"+# to Level of all Cremation Gems","better":1,"matchers":[{"string":"全部 熔炎送葬 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_161"]}}}
+{"ref":"+# to Level of all Cyclone Gems","better":1,"matchers":[{"string":"全部 旋風斬 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_87"]}}}
+{"ref":"+# to Level of all Dark Pact Gems","better":1,"matchers":[{"string":"全部 暗夜血契 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_159"]}}}
+{"ref":"+# to Level of all Dash Gems","better":1,"matchers":[{"string":"全部 疾影 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_197"]}}}
+{"ref":"+# to Level of all Decoy Totem Gems","better":1,"matchers":[{"string":"全部 誘餌圖騰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_78"]}}}
+{"ref":"+# to Level of all Defiance Banner Gems","better":1,"matchers":[{"string":"全部 反抗之旗 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_242"]}}}
+{"ref":"+# to Level of all Desecrate Gems","better":1,"matchers":[{"string":"全部 褻瀆 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_107"]}}}
+{"ref":"+# to Level of all Despair Gems","better":1,"matchers":[{"string":"全部 絕望 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_45"]}}}
+{"ref":"+# to Level of all Destructive Link Gems","better":1,"matchers":[{"string":"全部 連結：破壞 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_267"]}}}
+{"ref":"+# to Level of all Determination Gems","better":1,"matchers":[{"string":"全部 堅定 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_67"]}}}
+{"ref":"+# to Level of all Detonate Dead Gems","better":1,"matchers":[{"string":"全部 屍體爆破 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_17"]}}}
+{"ref":"+# to Level of all Devouring Totem Gems","better":1,"matchers":[{"string":"全部 吞噬圖騰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_79"]}}}
+{"ref":"+# to Level of all Discharge Gems","better":1,"matchers":[{"string":"全部 解放 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_25"]}}}
+{"ref":"+# to Level of all Discipline Gems","better":1,"matchers":[{"string":"全部 紀律 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_65"]}}}
+{"ref":"+# to Level of all Divine Ire Gems","better":1,"matchers":[{"string":"全部 聖怒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_191"]}}}
+{"ref":"+# to Level of all Dominating Blow Gems","better":1,"matchers":[{"string":"全部 霸氣之擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_52"]}}}
+{"ref":"+# to Level of all Double Strike Gems","better":1,"matchers":[{"string":"全部 雙重打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_9"]}}}
+{"ref":"+# to Level of all Dread Banner Gems","better":1,"matchers":[{"string":"全部 恐懼之旗 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_185"]}}}
+{"ref":"+# to Level of all Dual Strike Gems","better":1,"matchers":[{"string":"全部 雙持打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_12"]}}}
+{"ref":"+# to Level of all Earthquake Gems","better":1,"matchers":[{"string":"全部 震地 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_146"]}}}
+{"ref":"+# to Level of all Earthshatter Gems","better":1,"matchers":[{"string":"全部 碎地重擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_228"]}}}
+{"ref":"+# to Level of all Elemental Hit Gems","better":1,"matchers":[{"string":"全部 元素打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_10"]}}}
+{"ref":"+# to Level of all Elemental Weakness Gems","better":1,"matchers":[{"string":"全部 元素要害 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_39"]}}}
+{"ref":"+# to Level of all Enduring Cry Gems","better":1,"matchers":[{"string":"全部 堅決戰吼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_8"]}}}
+{"ref":"+# to Level of all Energy Blade Gems","better":1,"matchers":[{"string":"全部 能量之刃 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_260"]}}}
+{"ref":"+# to Level of all Enfeeble Gems","better":1,"matchers":[{"string":"全部 衰弱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_42"]}}}
+{"ref":"+# to Level of all Ensnaring Arrow Gems","better":1,"matchers":[{"string":"全部 誘捕箭矢 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_215"]}}}
+{"ref":"+# to Level of all Essence Drain Gems","better":1,"matchers":[{"string":"全部 靈魂吸取 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_141"]}}}
+{"ref":"+# to Level of all Ethereal Knives Gems","better":1,"matchers":[{"string":"全部 虛空匕首 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_80"]}}}
+{"ref":"+# to Level of all Explosive Arrow Gems","better":1,"matchers":[{"string":"全部 爆炸箭矢 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_37"]}}}
+{"ref":"+# to Level of all Explosive Concoction Gems","better":1,"matchers":[{"string":"全部 爆裂物 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_257"]}}}
+{"ref":"+# to Level of all Explosive Trap Gems","better":1,"matchers":[{"string":"全部 爆裂陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_165"]}}}
+{"ref":"+# to Level of all Exsanguinate Gems","better":1,"matchers":[{"string":"全部 抽血 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_238"]}}}
+{"ref":"+# to Level of all Eye of Winter Gems","better":1,"matchers":[{"string":"全部 凜冬之眼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_252"]}}}
 {"ref":"+# to Level of all Fire Skill Gems","better":1,"matchers":[{"string":"全部火焰技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_599749213"],"fractured":["fractured.stat_599749213"]}}}
 {"ref":"+# to Level of all Fire Spell Skill Gems","better":1,"matchers":[{"string":"全部火焰法術技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_591105508"],"fractured":["fractured.stat_591105508"],"scourge":["scourge.stat_591105508"]}}}
-{"ref":"+# to Level of all Fire Trap Gems","better":1,"matchers":[{"string":"全部 火焰陷阱 寶石等級 #","advanced":"全部 火焰陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_77"]}}}
-{"ref":"+# to Level of all Fireball Gems","better":1,"matchers":[{"string":"全部 火球 寶石等級 #","advanced":"全部 火球(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_1"]}}}
-{"ref":"+# to Level of all Firestorm Gems","better":1,"matchers":[{"string":"全部 烈炎風暴 寶石等級 #","advanced":"全部 烈炎風暴(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_54"]}}}
-{"ref":"+# to Level of all Flame Dash Gems","better":1,"matchers":[{"string":"全部 烈焰衝刺 寶石等級 #","advanced":"全部 烈焰衝刺(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_131"]}}}
-{"ref":"+# to Level of all Flame Link Gems","better":1,"matchers":[{"string":"全部 連結：烈焰 寶石等級 #","advanced":"全部 連結：烈焰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_263"]}}}
-{"ref":"+# to Level of all Flame Surge Gems","better":1,"matchers":[{"string":"全部 怒焰奔騰 寶石等級 #","advanced":"全部 怒焰奔騰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_106"]}}}
-{"ref":"+# to Level of all Flame Wall Gems","better":1,"matchers":[{"string":"全部 烈焰之牆 寶石等級 #","advanced":"全部 烈焰之牆(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_231"]}}}
-{"ref":"+# to Level of all Flameblast Gems","better":1,"matchers":[{"string":"全部 烈焰爆破 寶石等級 #","advanced":"全部 烈焰爆破(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_102"]}}}
-{"ref":"+# to Level of all Flamethrower Trap Gems","better":1,"matchers":[{"string":"全部 噴火陷阱 寶石等級 #","advanced":"全部 噴火陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_167"]}}}
-{"ref":"+# to Level of all Flammability Gems","better":1,"matchers":[{"string":"全部 易燃 寶石等級 #","advanced":"全部 易燃(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_83"]}}}
-{"ref":"+# to Level of all Flesh and Stone Gems","better":1,"matchers":[{"string":"全部 血肉骸骨 寶石等級 #","advanced":"全部 血肉骸骨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_204"]}}}
-{"ref":"+# to Level of all Flesh Offering Gems","better":1,"matchers":[{"string":"全部 血肉奉獻 寶石等級 #","advanced":"全部 血肉奉獻(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_108"]}}}
-{"ref":"+# to Level of all Flicker Strike Gems","better":1,"matchers":[{"string":"全部 閃現打擊 寶石等級 #","advanced":"全部 閃現打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_26"]}}}
-{"ref":"+# to Level of all Forbidden Rite Gems","better":1,"matchers":[{"string":"全部 禁忌儀式 寶石等級 #","advanced":"全部 禁忌儀式(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_254"]}}}
-{"ref":"+# to Level of all Freezing Pulse Gems","better":1,"matchers":[{"string":"全部 冰霜脈衝 寶石等級 #","advanced":"全部 冰霜脈衝(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_33"]}}}
-{"ref":"+# to Level of all Frenzy Gems","better":1,"matchers":[{"string":"全部 狂怒 寶石等級 #","advanced":"全部 狂怒(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_14"]}}}
-{"ref":"+# to Level of all Frost Blades Gems","better":1,"matchers":[{"string":"全部 冰霜之刃 寶石等級 #","advanced":"全部 冰霜之刃(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_132"]}}}
-{"ref":"+# to Level of all Frost Bomb Gems","better":1,"matchers":[{"string":"全部 寒霜爆 寶石等級 #","advanced":"全部 寒霜爆(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_144"]}}}
-{"ref":"+# to Level of all Frost Shield Gems","better":1,"matchers":[{"string":"全部 寒霜護盾 寶石等級 #","advanced":"全部 寒霜護盾(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_235"]}}}
-{"ref":"+# to Level of all Frost Wall Gems","better":1,"matchers":[{"string":"全部 冰牆 寶石等級 #","advanced":"全部 冰牆(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_32"]}}}
-{"ref":"+# to Level of all Frostbite Gems","better":1,"matchers":[{"string":"全部 凍傷 寶石等級 #","advanced":"全部 凍傷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_84"]}}}
-{"ref":"+# to Level of all Frostblink Gems","better":1,"matchers":[{"string":"全部 霜漣之瞬 寶石等級 #","advanced":"全部 霜漣之瞬(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_203"]}}}
-{"ref":"+# to Level of all Frostbolt Gems","better":1,"matchers":[{"string":"全部 寒冰彈 寶石等級 #","advanced":"全部 寒冰彈(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_153"]}}}
-{"ref":"+# to Level of all Frozen Legion Gems","better":1,"matchers":[{"string":"全部 戰亂．凍結 寶石等級 #","advanced":"全部 戰亂．凍結(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_271"]}}}
-{"ref":"+# to Level of all Galvanic Arrow Gems","better":1,"matchers":[{"string":"全部 電流箭矢 寶石等級 #","advanced":"全部 電流箭矢(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_134"]}}}
-{"ref":"+# to Level of all Galvanic Field Gems","better":1,"matchers":[{"string":"全部 電光領域 寶石等級 #","advanced":"全部 電光領域(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_268"]}}}
-{"ref":"+# to Level of all General's Cry Gems","better":1,"matchers":[{"string":"全部 將軍戰吼 寶石等級 #","advanced":"全部 將軍戰吼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_224"]}}}
-{"ref":"+# to Level of all Glacial Cascade Gems","better":1,"matchers":[{"string":"全部 冰川之刺 寶石等級 #","advanced":"全部 冰川之刺(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_110"]}}}
-{"ref":"+# to Level of all Glacial Hammer Gems","better":1,"matchers":[{"string":"全部 冰霜之錘 寶石等級 #","advanced":"全部 冰霜之錘(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_31"]}}}
-{"ref":"+# to Level of all Grace Gems","better":1,"matchers":[{"string":"全部 優雅 寶石等級 #","advanced":"全部 優雅(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_66"]}}}
-{"ref":"+# to Level of all Ground Slam Gems","better":1,"matchers":[{"string":"全部 裂地之擊 寶石等級 #","advanced":"全部 裂地之擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_5"]}}}
-{"ref":"+# to Level of all Haste Gems","better":1,"matchers":[{"string":"全部 迅捷 寶石等級 #","advanced":"全部 迅捷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_62"]}}}
-{"ref":"+# to Level of all Hatred Gems","better":1,"matchers":[{"string":"全部 憎恨 寶石等級 #","advanced":"全部 憎恨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_69"]}}}
-{"ref":"+# to Level of all Heavy Strike Gems","better":1,"matchers":[{"string":"全部 沉重之擊 寶石等級 #","advanced":"全部 沉重之擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_51"]}}}
-{"ref":"+# to Level of all Herald of Agony Gems","better":1,"matchers":[{"string":"全部 苦痛之捷 寶石等級 #","advanced":"全部 苦痛之捷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_174"]}}}
-{"ref":"+# to Level of all Herald of Ash Gems","better":1,"matchers":[{"string":"全部 灰燼之捷 寶石等級 #","advanced":"全部 灰燼之捷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_114"]}}}
-{"ref":"+# to Level of all Herald of Ice Gems","better":1,"matchers":[{"string":"全部 冰霜之捷 寶石等級 #","advanced":"全部 冰霜之捷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_115"]}}}
-{"ref":"+# to Level of all Herald of Purity Gems","better":1,"matchers":[{"string":"全部 純淨之捷 寶石等級 #","advanced":"全部 純淨之捷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_173"]}}}
-{"ref":"+# to Level of all Herald of Thunder Gems","better":1,"matchers":[{"string":"全部 閃電之捷 寶石等級 #","advanced":"全部 閃電之捷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_116"]}}}
-{"ref":"+# to Level of all Hexblast Gems","better":1,"matchers":[{"string":"全部 咒術枯萎 寶石等級 #","advanced":"全部 咒術枯萎(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_237"]}}}
-{"ref":"+# to Level of all Holy Flame Totem Gems","better":1,"matchers":[{"string":"全部 神聖火舌圖騰 寶石等級 #","advanced":"全部 神聖火舌圖騰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_82"]}}}
-{"ref":"+# to Level of all Hydrosphere Gems","better":1,"matchers":[{"string":"全部 水弒界 寶石等級 #","advanced":"全部 水弒界(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_236"]}}}
-{"ref":"+# to Level of all Ice Crash Gems","better":1,"matchers":[{"string":"全部 寒冰衝擊 寶石等級 #","advanced":"全部 寒冰衝擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_126"]}}}
-{"ref":"+# to Level of all Ice Nova Gems","better":1,"matchers":[{"string":"全部 冰霜新星 寶石等級 #","advanced":"全部 冰霜新星(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_2"]}}}
-{"ref":"+# to Level of all Ice Shot Gems","better":1,"matchers":[{"string":"全部 冰霜射擊 寶石等級 #","advanced":"全部 冰霜射擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_20"]}}}
-{"ref":"+# to Level of all Ice Spear Gems","better":1,"matchers":[{"string":"全部 冰矛 寶石等級 #","advanced":"全部 冰矛(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_28"]}}}
-{"ref":"+# to Level of all Ice Trap Gems","better":1,"matchers":[{"string":"全部 冰凍陷阱 寶石等級 #","advanced":"全部 冰凍陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_142"]}}}
-{"ref":"+# to Level of all Icicle Mine Gems","better":1,"matchers":[{"string":"全部 冰雹地雷 寶石等級 #","advanced":"全部 冰雹地雷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_93"]}}}
-{"ref":"+# to Level of all Immortal Call Gems","better":1,"matchers":[{"string":"全部 不朽怒嚎 寶石等級 #","advanced":"全部 不朽怒嚎(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_11"]}}}
-{"ref":"+# to Level of all Incinerate Gems","better":1,"matchers":[{"string":"全部 燒毀 寶石等級 #","advanced":"全部 燒毀(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_86"]}}}
-{"ref":"+# to Level of all Infernal Blow Gems","better":1,"matchers":[{"string":"全部 煉獄之擊 寶石等級 #","advanced":"全部 煉獄之擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_30"]}}}
-{"ref":"+# to Level of all Infernal Cry Gems","better":1,"matchers":[{"string":"全部 煉獄戰吼 寶石等級 #","advanced":"全部 煉獄戰吼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_128"]}}}
-{"ref":"+# to Level of all Intimidating Cry Gems","better":1,"matchers":[{"string":"全部 威嚇戰吼 寶石等級 #","advanced":"全部 威嚇戰吼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_221"]}}}
-{"ref":"+# to Level of all Intuitive Link Gems","better":1,"matchers":[{"string":"全部 連結：直覺 寶石等級 #","advanced":"全部 連結：直覺(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_264"]}}}
+{"ref":"+# to Level of all Fire Trap Gems","better":1,"matchers":[{"string":"全部 火焰陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_77"]}}}
+{"ref":"+# to Level of all Fireball Gems","better":1,"matchers":[{"string":"全部 火球 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_1"]}}}
+{"ref":"+# to Level of all Firestorm Gems","better":1,"matchers":[{"string":"全部 列炎峰報 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_54"]}}}
+{"ref":"+# to Level of all Flame Dash Gems","better":1,"matchers":[{"string":"全部 烈焰衝刺 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_131"]}}}
+{"ref":"+# to Level of all Flame Link Gems","better":1,"matchers":[{"string":"全部 連結：烈焰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_263"]}}}
+{"ref":"+# to Level of all Flame Surge Gems","better":1,"matchers":[{"string":"全部 怒焰奔騰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_106"]}}}
+{"ref":"+# to Level of all Flame Wall Gems","better":1,"matchers":[{"string":"全部 烈炎之牆 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_231"]}}}
+{"ref":"+# to Level of all Flameblast Gems","better":1,"matchers":[{"string":"全部 烈焰爆破 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_102"]}}}
+{"ref":"+# to Level of all Flamethrower Trap Gems","better":1,"matchers":[{"string":"全部 噴火陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_167"]}}}
+{"ref":"+# to Level of all Flammability Gems","better":1,"matchers":[{"string":"全部 易燃 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_83"]}}}
+{"ref":"+# to Level of all Flesh and Stone Gems","better":1,"matchers":[{"string":"全部 血肉骸骨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_204"]}}}
+{"ref":"+# to Level of all Flesh Offering Gems","better":1,"matchers":[{"string":"全部 血肉奉獻 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_108"]}}}
+{"ref":"+# to Level of all Flicker Strike Gems","better":1,"matchers":[{"string":"全部 閃現打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_26"]}}}
+{"ref":"+# to Level of all Forbidden Rite Gems","better":1,"matchers":[{"string":"全部 禁忌儀式 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_254"]}}}
+{"ref":"+# to Level of all Freezing Pulse Gems","better":1,"matchers":[{"string":"全部 冰霜脈衝 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_33"]}}}
+{"ref":"+# to Level of all Frenzy Gems","better":1,"matchers":[{"string":"全部 狂怒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_14"]}}}
+{"ref":"+# to Level of all Frost Blades Gems","better":1,"matchers":[{"string":"全部 冰霜之刃 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_132"]}}}
+{"ref":"+# to Level of all Frost Bomb Gems","better":1,"matchers":[{"string":"全部 霜害 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_144"]}}}
+{"ref":"+# to Level of all Frost Shield Gems","better":1,"matchers":[{"string":"全部 寒霜護盾 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_235"]}}}
+{"ref":"+# to Level of all Frost Wall Gems","better":1,"matchers":[{"string":"全部 冰牆 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_32"]}}}
+{"ref":"+# to Level of all Frostbite Gems","better":1,"matchers":[{"string":"全部 凍傷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_84"]}}}
+{"ref":"+# to Level of all Frostblink Gems","better":1,"matchers":[{"string":"全部 霜漣之瞬 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_203"]}}}
+{"ref":"+# to Level of all Frostbolt Gems","better":1,"matchers":[{"string":"全部 寒冰彈 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_153"]}}}
+{"ref":"+# to Level of all Frozen Legion Gems","better":1,"matchers":[{"string":"全部 戰亂．凍結 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_271"]}}}
+{"ref":"+# to Level of all Galvanic Arrow Gems","better":1,"matchers":[{"string":"全部 電流箭矢 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_134"]}}}
+{"ref":"+# to Level of all Galvanic Field Gems","better":1,"matchers":[{"string":"全部 電光領域 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_268"]}}}
+{"ref":"+# to Level of all General's Cry Gems","better":1,"matchers":[{"string":"全部 將軍戰吼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_224"]}}}
+{"ref":"+# to Level of all Glacial Cascade Gems","better":1,"matchers":[{"string":"全部 冰川之刺 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_110"]}}}
+{"ref":"+# to Level of all Glacial Hammer Gems","better":1,"matchers":[{"string":"全部 冰霜之錘 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_31"]}}}
+{"ref":"+# to Level of all Grace Gems","better":1,"matchers":[{"string":"全部 優雅 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_66"]}}}
+{"ref":"+# to Level of all Ground Slam Gems","better":1,"matchers":[{"string":"全部 裂地之擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_5"]}}}
+{"ref":"+# to Level of all Haste Gems","better":1,"matchers":[{"string":"全部 迅捷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_62"]}}}
+{"ref":"+# to Level of all Hatred Gems","better":1,"matchers":[{"string":"全部 憎恨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_69"]}}}
+{"ref":"+# to Level of all Heavy Strike Gems","better":1,"matchers":[{"string":"全部 沉重之擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_51"]}}}
+{"ref":"+# to Level of all Herald of Agony Gems","better":1,"matchers":[{"string":"全部 苦痛之捷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_174"]}}}
+{"ref":"+# to Level of all Herald of Ash Gems","better":1,"matchers":[{"string":"全部 地炎之兆 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_114"]}}}
+{"ref":"+# to Level of all Herald of Ice Gems","better":1,"matchers":[{"string":"全部 冰霜之捷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_115"]}}}
+{"ref":"+# to Level of all Herald of Purity Gems","better":1,"matchers":[{"string":"全部 純淨之捷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_173"]}}}
+{"ref":"+# to Level of all Herald of Thunder Gems","better":1,"matchers":[{"string":"全部 天雷之兆 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_116"]}}}
+{"ref":"+# to Level of all Hexblast Gems","better":1,"matchers":[{"string":"全部 咒術枯萎 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_237"]}}}
+{"ref":"+# to Level of all Holy Flame Totem Gems","better":1,"matchers":[{"string":"全部 神聖火舌圖騰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_82"]}}}
+{"ref":"+# to Level of all Hydrosphere Gems","better":1,"matchers":[{"string":"全部 水弒界 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_236"]}}}
+{"ref":"+# to Level of all Ice Crash Gems","better":1,"matchers":[{"string":"全部 寒冰衝擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_126"]}}}
+{"ref":"+# to Level of all Ice Nova Gems","better":1,"matchers":[{"string":"全部 冰霜新星 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_2"]}}}
+{"ref":"+# to Level of all Ice Shot Gems","better":1,"matchers":[{"string":"全部 冰霜射擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_20"]}}}
+{"ref":"+# to Level of all Ice Spear Gems","better":1,"matchers":[{"string":"全部 冰矛 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_28"]}}}
+{"ref":"+# to Level of all Ice Trap Gems","better":1,"matchers":[{"string":"全部 冰凍陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_142"]}}}
+{"ref":"+# to Level of all Icicle Mine Gems","better":1,"matchers":[{"string":"全部 冰雹地雷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_93"]}}}
+{"ref":"+# to Level of all Immortal Call Gems","better":1,"matchers":[{"string":"全部 不朽怒嚎 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_11"]}}}
+{"ref":"+# to Level of all Incinerate Gems","better":1,"matchers":[{"string":"全部 燃火燒盡 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_86"]}}}
+{"ref":"+# to Level of all Infernal Blow Gems","better":1,"matchers":[{"string":"全部 煉獄之擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_30"]}}}
+{"ref":"+# to Level of all Infernal Cry Gems","better":1,"matchers":[{"string":"全部 煉獄戰吼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_128"]}}}
+{"ref":"+# to Level of all Intimidating Cry Gems","better":1,"matchers":[{"string":"全部 威嚇戰吼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_221"]}}}
+{"ref":"+# to Level of all Intuitive Link Gems","better":1,"matchers":[{"string":"全部 連結：直覺 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_264"]}}}
 {"ref":"+# to Level of all Jobs for Heists","better":1,"matchers":[{"string":"為劫盜 # 全部工作等級"}],"trade":{"ids":{"explicit":["explicit.stat_2692578539"]}}}
-{"ref":"+# to Level of all Kinetic Blast Gems","better":1,"matchers":[{"string":"全部 力量爆破 寶石等級 #","advanced":"全部 力量爆破(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_121"]}}}
-{"ref":"+# to Level of all Kinetic Bolt Gems","better":1,"matchers":[{"string":"全部 力量穿引 寶石等級 #","advanced":"全部 力量穿引(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_219"]}}}
-{"ref":"+# to Level of all Lacerate Gems","better":1,"matchers":[{"string":"全部 破空斬 寶石等級 #","advanced":"全部 破空斬(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_151"]}}}
-{"ref":"+# to Level of all Lancing Steel Gems","better":1,"matchers":[{"string":"全部 鋼之突刺 寶石等級 #","advanced":"全部 鋼之突刺(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_187"]}}}
-{"ref":"+# to Level of all Leap Slam Gems","better":1,"matchers":[{"string":"全部 躍擊 寶石等級 #","advanced":"全部 躍擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_3"]}}}
-{"ref":"+# to Level of all Lightning Arrow Gems","better":1,"matchers":[{"string":"全部 閃電箭矢 寶石等級 #","advanced":"全部 閃電箭矢(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_60"]}}}
-{"ref":"+# to Level of all Lightning Conduit Gems","better":1,"matchers":[{"string":"全部 導雷 寶石等級 #","advanced":"全部 導雷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_269"]}}}
+{"ref":"+# to Level of all Kinetic Blast Gems","better":1,"matchers":[{"string":"全部 力量爆破 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_121"]}}}
+{"ref":"+# to Level of all Kinetic Bolt Gems","better":1,"matchers":[{"string":"全部 力量穿引 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_219"]}}}
+{"ref":"+# to Level of all Lacerate Gems","better":1,"matchers":[{"string":"全部 破空斬 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_151"]}}}
+{"ref":"+# to Level of all Lancing Steel Gems","better":1,"matchers":[{"string":"全部 鋼之突刺 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_187"]}}}
+{"ref":"+# to Level of all Leap Slam Gems","better":1,"matchers":[{"string":"全部 躍擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_3"]}}}
+{"ref":"+# to Level of all Lightning Arrow Gems","better":1,"matchers":[{"string":"全部 閃電箭矢 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_60"]}}}
+{"ref":"+# to Level of all Lightning Conduit Gems","better":1,"matchers":[{"string":"全部 導雷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_269"]}}}
 {"ref":"+# to Level of all Lightning Skill Gems","better":1,"matchers":[{"string":"全部閃電技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_1147690586"],"fractured":["fractured.stat_1147690586"]}}}
 {"ref":"+# to Level of all Lightning Spell Skill Gems","better":1,"matchers":[{"string":"全部閃電法術技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_1545858329"],"fractured":["fractured.stat_1545858329"],"scourge":["scourge.stat_1545858329"]}}}
-{"ref":"+# to Level of all Lightning Spire Trap Gems","better":1,"matchers":[{"string":"全部 鋒雷陷阱 寶石等級 #","advanced":"全部 鋒雷陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_168"]}}}
-{"ref":"+# to Level of all Lightning Strike Gems","better":1,"matchers":[{"string":"全部 閃電打擊 寶石等級 #","advanced":"全部 閃電打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_55"]}}}
-{"ref":"+# to Level of all Lightning Tendrils Gems","better":1,"matchers":[{"string":"全部 電能釋放 寶石等級 #","advanced":"全部 電能釋放(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_118"]}}}
-{"ref":"+# to Level of all Lightning Trap Gems","better":1,"matchers":[{"string":"全部 閃電陷阱 寶石等級 #","advanced":"全部 閃電陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_90"]}}}
-{"ref":"+# to Level of all Lightning Warp Gems","better":1,"matchers":[{"string":"全部 閃電傳送 寶石等級 #","advanced":"全部 閃電傳送(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_46"]}}}
-{"ref":"+# to Level of all Malevolence Gems","better":1,"matchers":[{"string":"全部 惡意 寶石等級 #","advanced":"全部 惡意(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_194"]}}}
-{"ref":"+# to Level of all Manabond Gems","better":1,"matchers":[{"string":"全部 魔能束縛 寶石等級 #","advanced":"全部 魔能束縛(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_256"]}}}
+{"ref":"+# to Level of all Lightning Spire Trap Gems","better":1,"matchers":[{"string":"全部 鋒雷陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_168"]}}}
+{"ref":"+# to Level of all Lightning Strike Gems","better":1,"matchers":[{"string":"全部 閃電打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_55"]}}}
+{"ref":"+# to Level of all Lightning Tendrils Gems","better":1,"matchers":[{"string":"全部 電能釋放 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_118"]}}}
+{"ref":"+# to Level of all Lightning Trap Gems","better":1,"matchers":[{"string":"全部 閃電陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_90"]}}}
+{"ref":"+# to Level of all Lightning Warp Gems","better":1,"matchers":[{"string":"全部 閃電傳送 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_46"]}}}
+{"ref":"+# to Level of all Malevolence Gems","better":1,"matchers":[{"string":"全部 惡意 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_194"]}}}
+{"ref":"+# to Level of all Manabond Gems","better":1,"matchers":[{"string":"全部 魔能束縛 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_256"]}}}
 {"ref":"+# to Level of all Minion Skill Gems","better":1,"matchers":[{"string":"全部召喚物技能寶石 # 等級"}],"trade":{"ids":{"explicit":["explicit.stat_2162097452"],"fractured":["fractured.stat_2162097452"]}}}
-{"ref":"+# to Level of all Mirror Arrow Gems","better":1,"matchers":[{"string":"全部 魅影射擊 寶石等級 #","advanced":"全部 魅影射擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_119"]}}}
-{"ref":"+# to Level of all Molten Shell Gems","better":1,"matchers":[{"string":"全部 熔岩護盾 寶石等級 #","advanced":"全部 熔岩護盾(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_57"]}}}
-{"ref":"+# to Level of all Molten Strike Gems","better":1,"matchers":[{"string":"全部 熔岩之擊 寶石等級 #","advanced":"全部 熔岩之擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_112"]}}}
-{"ref":"+# to Level of all Orb of Storms Gems","better":1,"matchers":[{"string":"全部 風暴漩渦 寶石等級 #","advanced":"全部 風暴漩渦(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_143"]}}}
-{"ref":"+# to Level of all Penance Brand Gems","better":1,"matchers":[{"string":"全部 贖罪烙印 寶石等級 #","advanced":"全部 贖罪烙印(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_226"]}}}
-{"ref":"+# to Level of all Perforate Gems","better":1,"matchers":[{"string":"全部 裂地刺穿 寶石等級 #","advanced":"全部 裂地刺穿(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_201"]}}}
-{"ref":"+# to Level of all Pestilent Strike Gems","better":1,"matchers":[{"string":"全部 瘟疫打擊 寶石等級 #","advanced":"全部 瘟疫打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_211"]}}}
-{"ref":"+# to Level of all Petrified Blood Gems","better":1,"matchers":[{"string":"全部 石化之血 寶石等級 #","advanced":"全部 石化之血(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_240"]}}}
-{"ref":"+# to Level of all Phase Run Gems","better":1,"matchers":[{"string":"全部 暗影迷蹤 寶石等級 #","advanced":"全部 暗影迷蹤(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_36"]}}}
+{"ref":"+# to Level of all Mirror Arrow Gems","better":1,"matchers":[{"string":"全部 魅影射擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_119"]}}}
+{"ref":"+# to Level of all Molten Shell Gems","better":1,"matchers":[{"string":"全部 熔岩護盾 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_57"]}}}
+{"ref":"+# to Level of all Molten Strike Gems","better":1,"matchers":[{"string":"全部 熔岩之擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_112"]}}}
+{"ref":"+# to Level of all Orb of Storms Gems","better":1,"matchers":[{"string":"全部 風暴漩渦 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_143"]}}}
+{"ref":"+# to Level of all Penance Brand Gems","better":1,"matchers":[{"string":"全部 贖罪烙印 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_226"]}}}
+{"ref":"+# to Level of all Perforate Gems","better":1,"matchers":[{"string":"全部 裂地刺穿 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_201"]}}}
+{"ref":"+# to Level of all Pestilent Strike Gems","better":1,"matchers":[{"string":"全部 瘟疫打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_211"]}}}
+{"ref":"+# to Level of all Petrified Blood Gems","better":1,"matchers":[{"string":"全部 石化之血 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_240"]}}}
+{"ref":"+# to Level of all Phase Run Gems","better":1,"matchers":[{"string":"全部 暗影迷蹤 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_36"]}}}
 {"ref":"+# to Level of all Physical Skill Gems","better":1,"matchers":[{"string":"全部物理技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_619213329"],"fractured":["fractured.stat_619213329"]}}}
 {"ref":"+# to Level of all Physical Spell Skill Gems","better":1,"matchers":[{"string":"全部物理法術技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_1600707273"],"fractured":["fractured.stat_1600707273"],"scourge":["scourge.stat_1600707273"]}}}
-{"ref":"+# to Level of all Plague Bearer Gems","better":1,"matchers":[{"string":"全部 病疫之難 寶石等級 #","advanced":"全部 病疫之難(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_210"]}}}
-{"ref":"+# to Level of all Poacher's Mark Gems","better":1,"matchers":[{"string":"全部 盜獵者印記 寶石等級 #","advanced":"全部 盜獵者印記(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_117"]}}}
-{"ref":"+# to Level of all Poisonous Concoction Gems","better":1,"matchers":[{"string":"全部 毒藥 寶石等級 #","advanced":"全部 毒藥(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_258"]}}}
-{"ref":"+# to Level of all Power Siphon Gems","better":1,"matchers":[{"string":"全部 力量抽取 寶石等級 #","advanced":"全部 力量抽取(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_58"]}}}
-{"ref":"+# to Level of all Precision Gems","better":1,"matchers":[{"string":"全部 精準 寶石等級 #","advanced":"全部 精準(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_195"]}}}
-{"ref":"+# to Level of all Pride Gems","better":1,"matchers":[{"string":"全部 驕傲 寶石等級 #","advanced":"全部 驕傲(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_205"]}}}
-{"ref":"+# to Level of all Protective Link Gems","better":1,"matchers":[{"string":"全部 連結：保護 寶石等級 #","advanced":"全部 連結：保護(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_265"]}}}
-{"ref":"+# to Level of all Puncture Gems","better":1,"matchers":[{"string":"全部 放血 寶石等級 #","advanced":"全部 放血(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_59"]}}}
-{"ref":"+# to Level of all Punishment Gems","better":1,"matchers":[{"string":"全部 懲戒 寶石等級 #","advanced":"全部 懲戒(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_41"]}}}
-{"ref":"+# to Level of all Purifying Flame Gems","better":1,"matchers":[{"string":"全部 淨化烈焰 寶石等級 #","advanced":"全部 淨化烈焰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_188"]}}}
-{"ref":"+# to Level of all Purity of Elements Gems","better":1,"matchers":[{"string":"全部 元素淨化 寶石等級 #","advanced":"全部 元素淨化(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_63"]}}}
-{"ref":"+# to Level of all Purity of Fire Gems","better":1,"matchers":[{"string":"全部 火焰淨化 寶石等級 #","advanced":"全部 火焰淨化(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_98"]}}}
-{"ref":"+# to Level of all Purity of Ice Gems","better":1,"matchers":[{"string":"全部 冰霜淨化 寶石等級 #","advanced":"全部 冰霜淨化(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_99"]}}}
-{"ref":"+# to Level of all Purity of Lightning Gems","better":1,"matchers":[{"string":"全部 閃電淨化 寶石等級 #","advanced":"全部 閃電淨化(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_100"]}}}
-{"ref":"+# to Level of all Pyroclast Mine Gems","better":1,"matchers":[{"string":"全部 炎爆新星地雷 寶石等級 #","advanced":"全部 炎爆新星地雷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_91"]}}}
-{"ref":"+# to Level of all Rage Vortex Gems","better":1,"matchers":[{"string":"全部 盛怒漩渦 寶石等級 #","advanced":"全部 盛怒漩渦(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_244"]}}}
-{"ref":"+# to Level of all Rain of Arrows Gems","better":1,"matchers":[{"string":"全部 箭雨 寶石等級 #","advanced":"全部 箭雨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_53"]}}}
-{"ref":"+# to Level of all Raise Spectre Gems","better":1,"matchers":[{"string":"全部 喚醒幽魂 寶石等級 #","advanced":"全部 喚醒幽魂(火球-炎火脈動) 寶石等級 #"},{"string":"全部喚醒幽魂寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_29","explicit.stat_3235814433"],"fractured":["fractured.stat_3235814433"]}}}
-{"ref":"+# to Level of all Raise Zombie Gems","better":1,"matchers":[{"string":"全部 殭屍復甦 寶石等級 #","advanced":"全部 殭屍復甦(火球-炎火脈動) 寶石等級 #"},{"string":"全部殭屍復甦寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_16","explicit.stat_2739830820"]}}}
-{"ref":"+# to Level of all Rallying Cry Gems","better":1,"matchers":[{"string":"全部 激勵戰吼 寶石等級 #","advanced":"全部 激勵戰吼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_127"]}}}
-{"ref":"+# to Level of all Reap Gems","better":1,"matchers":[{"string":"全部 收割 寶石等級 #","advanced":"全部 收割(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_241"]}}}
-{"ref":"+# to Level of all Reave Gems","better":1,"matchers":[{"string":"全部 衝擊波 寶石等級 #","advanced":"全部 衝擊波(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_89"]}}}
-{"ref":"+# to Level of all Reckoning Gems","better":1,"matchers":[{"string":"全部 清算 寶石等級 #","advanced":"全部 清算(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_50"]}}}
-{"ref":"+# to Level of all Rejuvenation Totem Gems","better":1,"matchers":[{"string":"全部 回春圖騰 寶石等級 #","advanced":"全部 回春圖騰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_74"]}}}
-{"ref":"+# to Level of all Righteous Fire Gems","better":1,"matchers":[{"string":"全部 正義之火 寶石等級 #","advanced":"全部 正義之火(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_24"]}}}
-{"ref":"+# to Level of all Riposte Gems","better":1,"matchers":[{"string":"全部 擊刃 寶石等級 #","advanced":"全部 擊刃(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_48"]}}}
-{"ref":"+# to Level of all Rolling Magma Gems","better":1,"matchers":[{"string":"全部 熔岩翻騰 寶石等級 #","advanced":"全部 熔岩翻騰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_130"]}}}
-{"ref":"+# to Level of all Scorching Ray Gems","better":1,"matchers":[{"string":"全部 熾灼奔流 寶石等級 #","advanced":"全部 熾灼奔流(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_156"]}}}
-{"ref":"+# to Level of all Scourge Arrow Gems","better":1,"matchers":[{"string":"全部 天譴之箭 寶石等級 #","advanced":"全部 天譴之箭(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_177"]}}}
-{"ref":"+# to Level of all Searing Bond Gems","better":1,"matchers":[{"string":"全部 灼熱連結 寶石等級 #","advanced":"全部 灼熱連結(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_88"]}}}
-{"ref":"+# to Level of all Seismic Cry Gems","better":1,"matchers":[{"string":"全部 裂地戰吼 寶石等級 #","advanced":"全部 裂地戰吼(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_223"]}}}
-{"ref":"+# to Level of all Seismic Trap Gems","better":1,"matchers":[{"string":"全部 地裂陷阱 寶石等級 #","advanced":"全部 地裂陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_169"]}}}
-{"ref":"+# to Level of all Shattering Steel Gems","better":1,"matchers":[{"string":"全部 鋼之碎擊 寶石等級 #","advanced":"全部 鋼之碎擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_186"]}}}
-{"ref":"+# to Level of all Shield Charge Gems","better":1,"matchers":[{"string":"全部 重盾衝鋒 寶石等級 #","advanced":"全部 重盾衝鋒(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_7"]}}}
-{"ref":"+# to Level of all Shield Crush Gems","better":1,"matchers":[{"string":"全部 重盾粉碎 寶石等級 #","advanced":"全部 重盾粉碎(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_245"]}}}
-{"ref":"+# to Level of all Shock Nova Gems","better":1,"matchers":[{"string":"全部 閃電新星 寶石等級 #","advanced":"全部 閃電新星(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_34"]}}}
-{"ref":"+# to Level of all Shockwave Totem Gems","better":1,"matchers":[{"string":"全部 震波圖騰 寶石等級 #","advanced":"全部 震波圖騰(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_73"]}}}
-{"ref":"+# to Level of all Shrapnel Ballista Gems","better":1,"matchers":[{"string":"全部 彈片砲塔 寶石等級 #","advanced":"全部 彈片砲塔(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_214"]}}}
-{"ref":"+# to Level of all Siege Ballista Gems","better":1,"matchers":[{"string":"全部 攻城炮台 寶石等級 #","advanced":"全部 攻城炮台(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_137"]}}}
-{"ref":"+# to Level of all Sigil of Power Gems","better":1,"matchers":[{"string":"全部 咒符之力 寶石等級 #","advanced":"全部 咒符之力(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_229"]}}}
-{"ref":"+# to Level of all Siphoning Trap Gems","better":1,"matchers":[{"string":"全部 虹吸陷阱 寶石等級 #","advanced":"全部 虹吸陷阱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_166"]}}}
+{"ref":"+# to Level of all Plague Bearer Gems","better":1,"matchers":[{"string":"全部 病疫之難 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_210"]}}}
+{"ref":"+# to Level of all Poacher's Mark Gems","better":1,"matchers":[{"string":"全部 盜獵者印記 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_117"]}}}
+{"ref":"+# to Level of all Poisonous Concoction Gems","better":1,"matchers":[{"string":"全部 毒藥 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_258"]}}}
+{"ref":"+# to Level of all Power Siphon Gems","better":1,"matchers":[{"string":"全部 力量抽取 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_58"]}}}
+{"ref":"+# to Level of all Precision Gems","better":1,"matchers":[{"string":"全部 精準 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_195"]}}}
+{"ref":"+# to Level of all Pride Gems","better":1,"matchers":[{"string":"全部 驕傲 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_205"]}}}
+{"ref":"+# to Level of all Protective Link Gems","better":1,"matchers":[{"string":"全部 連結：保護 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_265"]}}}
+{"ref":"+# to Level of all Puncture Gems","better":1,"matchers":[{"string":"全部 放血 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_59"]}}}
+{"ref":"+# to Level of all Punishment Gems","better":1,"matchers":[{"string":"全部 懲戒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_41"]}}}
+{"ref":"+# to Level of all Purifying Flame Gems","better":1,"matchers":[{"string":"全部 淨化烈焰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_188"]}}}
+{"ref":"+# to Level of all Purity of Elements Gems","better":1,"matchers":[{"string":"全部 元素淨化 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_63"]}}}
+{"ref":"+# to Level of all Purity of Fire Gems","better":1,"matchers":[{"string":"全部 火焰淨化 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_98"]}}}
+{"ref":"+# to Level of all Purity of Ice Gems","better":1,"matchers":[{"string":"全部 冰霜淨化 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_99"]}}}
+{"ref":"+# to Level of all Purity of Lightning Gems","better":1,"matchers":[{"string":"全部 閃電淨化 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_100"]}}}
+{"ref":"+# to Level of all Pyroclast Mine Gems","better":1,"matchers":[{"string":"全部 炎爆新星地雷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_91"]}}}
+{"ref":"+# to Level of all Rage Vortex Gems","better":1,"matchers":[{"string":"全部 盛怒漩渦 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_244"]}}}
+{"ref":"+# to Level of all Rain of Arrows Gems","better":1,"matchers":[{"string":"全部 箭雨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_53"]}}}
+{"ref":"+# to Level of all Raise Spectre Gems","better":1,"matchers":[{"string":"全部 喚醒幽魂 寶石等級 #"},{"string":"全部喚醒幽魂寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_29","explicit.stat_3235814433"],"fractured":["fractured.stat_3235814433"]}}}
+{"ref":"+# to Level of all Raise Zombie Gems","better":1,"matchers":[{"string":"全部 殭屍復甦 寶石等級 #"},{"string":"全部殭屍復甦寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_16","explicit.stat_2739830820"]}}}
+{"ref":"+# to Level of all Rallying Cry Gems","better":1,"matchers":[{"string":"全部 激勵戰吼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_127"]}}}
+{"ref":"+# to Level of all Reap Gems","better":1,"matchers":[{"string":"全部 收割 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_241"]}}}
+{"ref":"+# to Level of all Reave Gems","better":1,"matchers":[{"string":"全部 超級衝擊波 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_89"]}}}
+{"ref":"+# to Level of all Reckoning Gems","better":1,"matchers":[{"string":"全部 清算 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_50"]}}}
+{"ref":"+# to Level of all Rejuvenation Totem Gems","better":1,"matchers":[{"string":"全部 回春圖騰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_74"]}}}
+{"ref":"+# to Level of all Righteous Fire Gems","better":1,"matchers":[{"string":"全部 正義之火 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_24"]}}}
+{"ref":"+# to Level of all Riposte Gems","better":1,"matchers":[{"string":"全部 擊刃 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_48"]}}}
+{"ref":"+# to Level of all Rolling Magma Gems","better":1,"matchers":[{"string":"全部 熔岩翻騰 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_130"]}}}
+{"ref":"+# to Level of all Scorching Ray Gems","better":1,"matchers":[{"string":"全部 熾灼奔流 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_156"]}}}
+{"ref":"+# to Level of all Scourge Arrow Gems","better":1,"matchers":[{"string":"全部 天譴之箭 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_177"]}}}
+{"ref":"+# to Level of all Searing Bond Gems","better":1,"matchers":[{"string":"全部 灼熱連結 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_88"]}}}
+{"ref":"+# to Level of all Seismic Cry Gems","better":1,"matchers":[{"string":"全部 裂地戰吼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_223"]}}}
+{"ref":"+# to Level of all Seismic Trap Gems","better":1,"matchers":[{"string":"全部 地裂陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_169"]}}}
+{"ref":"+# to Level of all Shattering Steel Gems","better":1,"matchers":[{"string":"全部 鋼之碎擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_186"]}}}
+{"ref":"+# to Level of all Shield Charge Gems","better":1,"matchers":[{"string":"全部 重盾衝鋒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_7"]}}}
+{"ref":"+# to Level of all Shield Crush Gems","better":1,"matchers":[{"string":"全部 重盾粉碎 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_245"]}}}
+{"ref":"+# to Level of all Shock Nova Gems","better":1,"matchers":[{"string":"全部 閃電新星 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_34"]}}}
+{"ref":"+# to Level of all Shockwave Totem Gems","better":1,"matchers":[{"string":"全部 圖騰：震波 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_73"]}}}
+{"ref":"+# to Level of all Shrapnel Ballista Gems","better":1,"matchers":[{"string":"全部 彈片砲塔 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_214"]}}}
+{"ref":"+# to Level of all Siege Ballista Gems","better":1,"matchers":[{"string":"全部 攻城炮台 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_137"]}}}
+{"ref":"+# to Level of all Sigil of Power Gems","better":1,"matchers":[{"string":"全部 咒符之力 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_229"]}}}
+{"ref":"+# to Level of all Siphoning Trap Gems","better":1,"matchers":[{"string":"全部 虹吸陷阱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_166"]}}}
 {"ref":"+# to Level of all Skill Gems","better":1,"matchers":[{"string":"全部技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_4283407333"],"fractured":["fractured.stat_4283407333"]}}}
-{"ref":"+# to Level of all Smite Gems","better":1,"matchers":[{"string":"全部 雷鳴重擊 寶石等級 #","advanced":"全部 雷鳴重擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_176"]}}}
-{"ref":"+# to Level of all Smoke Mine Gems","better":1,"matchers":[{"string":"全部 煙霧地雷 寶石等級 #","advanced":"全部 煙霧地雷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_92"]}}}
-{"ref":"+# to Level of all Snipe Gems","better":1,"matchers":[{"string":"全部 狙擊 寶石等級 #","advanced":"全部 狙擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_147"]}}}
-{"ref":"+# to Level of all Sniper's Mark Gems","better":1,"matchers":[{"string":"全部 狙擊者印記 寶石等級 #","advanced":"全部 狙擊者印記(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_44"]}}}
-{"ref":"+# to Level of all Soul Link Gems","better":1,"matchers":[{"string":"全部 連結：靈魂 寶石等級 #","advanced":"全部 連結：靈魂(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_262"]}}}
-{"ref":"+# to Level of all Soulrend Gems","better":1,"matchers":[{"string":"全部 靈體撕裂 寶石等級 #","advanced":"全部 靈體撕裂(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_189"]}}}
-{"ref":"+# to Level of all Spark Gems","better":1,"matchers":[{"string":"全部 電球 寶石等級 #","advanced":"全部 電球(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_27"]}}}
-{"ref":"+# to Level of all Spectral Helix Gems","better":1,"matchers":[{"string":"全部 靈體旋武 寶石等級 #","advanced":"全部 靈體旋武(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_253"]}}}
-{"ref":"+# to Level of all Spectral Shield Throw Gems","better":1,"matchers":[{"string":"全部 盾靈投擲 寶石等級 #","advanced":"全部 盾靈投擲(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_172"]}}}
-{"ref":"+# to Level of all Spectral Throw Gems","better":1,"matchers":[{"string":"全部 靈體投擲 寶石等級 #","advanced":"全部 靈體投擲(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_96"]}}}
+{"ref":"+# to Level of all Smite Gems","better":1,"matchers":[{"string":"全部 雷鳴重擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_176"]}}}
+{"ref":"+# to Level of all Smoke Mine Gems","better":1,"matchers":[{"string":"全部 煙霧地雷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_92"]}}}
+{"ref":"+# to Level of all Snipe Gems","better":1,"matchers":[{"string":"全部 狙擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_147"]}}}
+{"ref":"+# to Level of all Sniper's Mark Gems","better":1,"matchers":[{"string":"全部 狙擊者印記 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_44"]}}}
+{"ref":"+# to Level of all Soul Link Gems","better":1,"matchers":[{"string":"全部 連結：靈魂 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_262"]}}}
+{"ref":"+# to Level of all Soulrend Gems","better":1,"matchers":[{"string":"全部 靈體撕裂 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_189"]}}}
+{"ref":"+# to Level of all Spark Gems","better":1,"matchers":[{"string":"全部 夜星 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_27"]}}}
+{"ref":"+# to Level of all Spectral Helix Gems","better":1,"matchers":[{"string":"全部 靈體旋武 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_253"]}}}
+{"ref":"+# to Level of all Spectral Shield Throw Gems","better":1,"matchers":[{"string":"全部 盾靈投擲 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_172"]}}}
+{"ref":"+# to Level of all Spectral Throw Gems","better":1,"matchers":[{"string":"全部 靈體投擲 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_96"]}}}
 {"ref":"+# to Level of all Spell Skill Gems","better":1,"matchers":[{"string":"全部法術技能寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_124131830"],"fractured":["fractured.stat_124131830"],"scourge":["scourge.stat_124131830"]}}}
-{"ref":"+# to Level of all Spellslinger Gems","better":1,"matchers":[{"string":"全部 法術回音 寶石等級 #","advanced":"全部 法術回音(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_218"]}}}
-{"ref":"+# to Level of all Spirit Offering Gems","better":1,"matchers":[{"string":"全部 靈魂奉獻 寶石等級 #","advanced":"全部 靈魂奉獻(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_152"]}}}
-{"ref":"+# to Level of all Split Arrow Gems","better":1,"matchers":[{"string":"全部 分裂箭矢 寶石等級 #","advanced":"全部 分裂箭矢(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_22"]}}}
-{"ref":"+# to Level of all Splitting Steel Gems","better":1,"matchers":[{"string":"全部 鋼之裂化 寶石等級 #","advanced":"全部 鋼之裂化(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_230"]}}}
-{"ref":"+# to Level of all Static Strike Gems","better":1,"matchers":[{"string":"全部 充能打擊 寶石等級 #","advanced":"全部 充能打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_21"]}}}
-{"ref":"+# to Level of all Steelskin Gems","better":1,"matchers":[{"string":"全部 鋼筋鐵骨 寶石等級 #","advanced":"全部 鋼筋鐵骨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_196"]}}}
-{"ref":"+# to Level of all Storm Brand Gems","better":1,"matchers":[{"string":"全部 風暴烙印 寶石等級 #","advanced":"全部 風暴烙印(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_181"]}}}
-{"ref":"+# to Level of all Storm Burst Gems","better":1,"matchers":[{"string":"全部 風爆 寶石等級 #","advanced":"全部 風爆(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_160"]}}}
-{"ref":"+# to Level of all Storm Call Gems","better":1,"matchers":[{"string":"全部 風暴呼喚 寶石等級 #","advanced":"全部 風暴呼喚(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_101"]}}}
-{"ref":"+# to Level of all Storm Rain Gems","better":1,"matchers":[{"string":"全部 暴風雷雨 寶石等級 #","advanced":"全部 暴風雷雨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_243"]}}}
-{"ref":"+# to Level of all Stormbind Gems","better":1,"matchers":[{"string":"全部 風暴術符 寶石等級 #","advanced":"全部 風暴術符(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_216"]}}}
-{"ref":"+# to Level of all Stormblast Mine Gems","better":1,"matchers":[{"string":"全部 風暴地雷 寶石等級 #","advanced":"全部 風暴地雷(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_94"]}}}
-{"ref":"+# to Level of all Summon Carrion Golem Gems","better":1,"matchers":[{"string":"全部 召喚食腐魔像 寶石等級 #","advanced":"全部 召喚食腐魔像(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_212"]}}}
-{"ref":"+# to Level of all Summon Chaos Golem Gems","better":1,"matchers":[{"string":"全部 召喚混沌魔像 寶石等級 #","advanced":"全部 召喚混沌魔像(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_122"]}}}
-{"ref":"+# to Level of all Summon Flame Golem Gems","better":1,"matchers":[{"string":"全部 召喚烈焰魔像 寶石等級 #","advanced":"全部 召喚烈焰魔像(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_124"]}}}
-{"ref":"+# to Level of all Summon Holy Relic Gems","better":1,"matchers":[{"string":"全部 召喚聖物 寶石等級 #","advanced":"全部 召喚聖物(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_179"]}}}
-{"ref":"+# to Level of all Summon Ice Golem Gems","better":1,"matchers":[{"string":"全部 召喚寒冰魔像 寶石等級 #","advanced":"全部 召喚寒冰魔像(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_123"]}}}
-{"ref":"+# to Level of all Summon Lightning Golem Gems","better":1,"matchers":[{"string":"全部 召喚閃電魔像 寶石等級 #","advanced":"全部 召喚閃電魔像(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_125"]}}}
-{"ref":"+# to Level of all Summon Raging Spirit Gems","better":1,"matchers":[{"string":"全部 召喚憤怒狂靈 寶石等級 #","advanced":"全部 召喚憤怒狂靈(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_105"]}}}
-{"ref":"+# to Level of all Summon Reaper Gems","better":1,"matchers":[{"string":"全部 召喚奪魂鐮 寶石等級 #","advanced":"全部 召喚奪魂鐮(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_246"]}}}
-{"ref":"+# to Level of all Summon Skeletons Gems","better":1,"matchers":[{"string":"全部 召喚骷髏 寶石等級 #","advanced":"全部 召喚骷髏(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_47"]}}}
-{"ref":"+# to Level of all Summon Skitterbots Gems","better":1,"matchers":[{"string":"全部 召喚探測機獸 寶石等級 #","advanced":"全部 召喚探測機獸(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_209"]}}}
-{"ref":"+# to Level of all Summon Stone Golem Gems","better":1,"matchers":[{"string":"全部 召喚巨石魔像 寶石等級 #","advanced":"全部 召喚巨石魔像(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_145"]}}}
-{"ref":"+# to Level of all Sunder Gems","better":1,"matchers":[{"string":"全部 大地震擊 寶石等級 #","advanced":"全部 大地震擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_148"]}}}
-{"ref":"+# to Level of all Sweep Gems","better":1,"matchers":[{"string":"全部 橫掃 寶石等級 #","advanced":"全部 橫掃(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_4"]}}}
-{"ref":"+# to Level of all Tectonic Slam Gems","better":1,"matchers":[{"string":"全部 破體之擊 寶石等級 #","advanced":"全部 破體之擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_171"]}}}
-{"ref":"+# to Level of all Tempest Shield Gems","better":1,"matchers":[{"string":"全部 暴風之盾 寶石等級 #","advanced":"全部 暴風之盾(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_56"]}}}
-{"ref":"+# to Level of all Temporal Chains Gems","better":1,"matchers":[{"string":"全部 時空鎖鏈 寶石等級 #","advanced":"全部 時空鎖鏈(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_38"]}}}
-{"ref":"+# to Level of all Temporal Rift Gems","better":1,"matchers":[{"string":"全部 時空裂隙 寶石等級 #","advanced":"全部 時空裂隙(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_259"]}}}
-{"ref":"+# to Level of all Tornado Gems","better":1,"matchers":[{"string":"全部 龍捲風 寶石等級 #","advanced":"全部 龍捲風(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_261"]}}}
-{"ref":"+# to Level of all Tornado Shot Gems","better":1,"matchers":[{"string":"全部 龍捲射擊 寶石等級 #","advanced":"全部 龍捲射擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_113"]}}}
-{"ref":"+# to Level of all Toxic Rain Gems","better":1,"matchers":[{"string":"全部 腐蝕毒雨 寶石等級 #","advanced":"全部 腐蝕毒雨(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_178"]}}}
-{"ref":"+# to Level of all Unearth Gems","better":1,"matchers":[{"string":"全部 屍術矢 寶石等級 #","advanced":"全部 屍術矢(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_164"]}}}
+{"ref":"+# to Level of all Spellslinger Gems","better":1,"matchers":[{"string":"全部 法術回音 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_218"]}}}
+{"ref":"+# to Level of all Spirit Offering Gems","better":1,"matchers":[{"string":"全部 靈魂奉獻 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_152"]}}}
+{"ref":"+# to Level of all Split Arrow Gems","better":1,"matchers":[{"string":"全部 分裂箭矢 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_22"]}}}
+{"ref":"+# to Level of all Splitting Steel Gems","better":1,"matchers":[{"string":"全部 鋼之裂化 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_230"]}}}
+{"ref":"+# to Level of all Static Strike Gems","better":1,"matchers":[{"string":"全部 充能打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_21"]}}}
+{"ref":"+# to Level of all Steelskin Gems","better":1,"matchers":[{"string":"全部 鋼筋鐵骨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_196"]}}}
+{"ref":"+# to Level of all Storm Brand Gems","better":1,"matchers":[{"string":"全部 風暴烙印 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_181"]}}}
+{"ref":"+# to Level of all Storm Burst Gems","better":1,"matchers":[{"string":"全部 風爆 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_160"]}}}
+{"ref":"+# to Level of all Storm Call Gems","better":1,"matchers":[{"string":"全部 風暴呼喚 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_101"]}}}
+{"ref":"+# to Level of all Storm Rain Gems","better":1,"matchers":[{"string":"全部 暴風雷雨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_243"]}}}
+{"ref":"+# to Level of all Stormbind Gems","better":1,"matchers":[{"string":"全部 風暴術符 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_216"]}}}
+{"ref":"+# to Level of all Stormblast Mine Gems","better":1,"matchers":[{"string":"全部 風暴地雷 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_94"]}}}
+{"ref":"+# to Level of all Summon Carrion Golem Gems","better":1,"matchers":[{"string":"全部 召喚食腐魔像 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_212"]}}}
+{"ref":"+# to Level of all Summon Chaos Golem Gems","better":1,"matchers":[{"string":"全部 召喚混沌魔像 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_122"]}}}
+{"ref":"+# to Level of all Summon Flame Golem Gems","better":1,"matchers":[{"string":"全部 召喚烈焰魔像 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_124"]}}}
+{"ref":"+# to Level of all Summon Holy Relic Gems","better":1,"matchers":[{"string":"全部 召喚聖物 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_179"]}}}
+{"ref":"+# to Level of all Summon Ice Golem Gems","better":1,"matchers":[{"string":"全部 召喚寒冰魔像 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_123"]}}}
+{"ref":"+# to Level of all Summon Lightning Golem Gems","better":1,"matchers":[{"string":"全部 召喚閃電魔像 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_125"]}}}
+{"ref":"+# to Level of all Summon Raging Spirit Gems","better":1,"matchers":[{"string":"全部 召喚憤怒狂靈 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_105"]}}}
+{"ref":"+# to Level of all Summon Reaper Gems","better":1,"matchers":[{"string":"全部 召喚奪魂鐮 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_246"]}}}
+{"ref":"+# to Level of all Summon Skeletons Gems","better":1,"matchers":[{"string":"全部 召喚骷髏 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_47"]}}}
+{"ref":"+# to Level of all Summon Skitterbots Gems","better":1,"matchers":[{"string":"全部 召喚探測機獸 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_209"]}}}
+{"ref":"+# to Level of all Summon Stone Golem Gems","better":1,"matchers":[{"string":"全部 召喚巨石魔像 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_145"]}}}
+{"ref":"+# to Level of all Sunder Gems","better":1,"matchers":[{"string":"全部 殘燼 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_148"]}}}
+{"ref":"+# to Level of all Sweep Gems","better":1,"matchers":[{"string":"全部 橫掃 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_4"]}}}
+{"ref":"+# to Level of all Tectonic Slam Gems","better":1,"matchers":[{"string":"全部 破體之擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_171"]}}}
+{"ref":"+# to Level of all Tempest Shield Gems","better":1,"matchers":[{"string":"全部 暴風之盾 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_56"]}}}
+{"ref":"+# to Level of all Temporal Chains Gems","better":1,"matchers":[{"string":"全部 時空鎖鏈 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_38"]}}}
+{"ref":"+# to Level of all Temporal Rift Gems","better":1,"matchers":[{"string":"全部 時空裂隙 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_259"]}}}
+{"ref":"+# to Level of all Tornado Gems","better":1,"matchers":[{"string":"全部 惡魔 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_261"]}}}
+{"ref":"+# to Level of all Tornado Shot Gems","better":1,"matchers":[{"string":"全部 龍捲射擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_113"]}}}
+{"ref":"+# to Level of all Toxic Rain Gems","better":1,"matchers":[{"string":"全部 腐蝕毒雨 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_178"]}}}
+{"ref":"+# to Level of all Unearth Gems","better":1,"matchers":[{"string":"全部 屍術矢 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_164"]}}}
 {"ref":"+# to Level of all Vaal Skill Gems","better":1,"matchers":[{"string":"# 全部瓦爾技能寶石的等級"}],"trade":{"ids":{"implicit":["implicit.stat_4180346416"]}}}
-{"ref":"+# to Level of all Vampiric Link Gems","better":1,"matchers":[{"string":"全部 連結：吸血 寶石等級 #","advanced":"全部 連結：吸血(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_266"]}}}
-{"ref":"+# to Level of all Vengeance Gems","better":1,"matchers":[{"string":"全部 復仇 寶石等級 #","advanced":"全部 復仇(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_49"]}}}
-{"ref":"+# to Level of all Venom Gyre Gems","better":1,"matchers":[{"string":"全部 猛毒迴旋 寶石等級 #","advanced":"全部 猛毒迴旋(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_208"]}}}
-{"ref":"+# to Level of all Vigilant Strike Gems","better":1,"matchers":[{"string":"全部 戒備打擊 寶石等級 #","advanced":"全部 戒備打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_129"]}}}
-{"ref":"+# to Level of all Viper Strike Gems","better":1,"matchers":[{"string":"全部 毒蛇打擊 寶石等級 #","advanced":"全部 毒蛇打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_35"]}}}
-{"ref":"+# to Level of all Vitality Gems","better":1,"matchers":[{"string":"全部 活力 寶石等級 #","advanced":"全部 活力(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_64"]}}}
-{"ref":"+# to Level of all Void Sphere Gems","better":1,"matchers":[{"string":"全部 虛無玉 寶石等級 #","advanced":"全部 虛無玉(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_234"]}}}
-{"ref":"+# to Level of all Volatile Dead Gems","better":1,"matchers":[{"string":"全部 致命之息 寶石等級 #","advanced":"全部 致命之息(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_163"]}}}
-{"ref":"+# to Level of all Volcanic Fissure Gems","better":1,"matchers":[{"string":"全部 炎火脈動 寶石等級 #","advanced":"全部 炎火脈動(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_272"]}}}
-{"ref":"+# to Level of all Voltaxic Burst Gems","better":1,"matchers":[{"string":"全部 魔痕爆發 寶石等級 #","advanced":"全部 魔痕爆發(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_249"]}}}
-{"ref":"+# to Level of all Vortex Gems","better":1,"matchers":[{"string":"全部 漩渦 寶石等級 #","advanced":"全部 漩渦(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_154"]}}}
-{"ref":"+# to Level of all Vulnerability Gems","better":1,"matchers":[{"string":"全部 脆弱 寶石等級 #","advanced":"全部 脆弱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_170"]}}}
-{"ref":"+# to Level of all War Banner Gems","better":1,"matchers":[{"string":"全部 戰爭之旗 寶石等級 #","advanced":"全部 戰爭之旗(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_184"]}}}
-{"ref":"+# to Level of all Warlord's Mark Gems","better":1,"matchers":[{"string":"全部 督軍印記 寶石等級 #","advanced":"全部 督軍印記(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_40"]}}}
-{"ref":"+# to Level of all Wave of Conviction Gems","better":1,"matchers":[{"string":"全部 信念浪湧 寶石等級 #","advanced":"全部 信念浪湧(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_192"]}}}
-{"ref":"+# to Level of all Whirling Blades Gems","better":1,"matchers":[{"string":"全部 迴旋之刃 寶石等級 #","advanced":"全部 迴旋之刃(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_13"]}}}
-{"ref":"+# to Level of all Wild Strike Gems","better":1,"matchers":[{"string":"全部 野性打擊 寶石等級 #","advanced":"全部 野性打擊(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_133"]}}}
-{"ref":"+# to Level of all Winter Orb Gems","better":1,"matchers":[{"string":"全部 凜冬之球 寶石等級 #","advanced":"全部 凜冬之球(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_180"]}}}
-{"ref":"+# to Level of all Wintertide Brand Gems","better":1,"matchers":[{"string":"全部 冬潮烙印 寶石等級 #","advanced":"全部 冬潮烙印(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_227"]}}}
-{"ref":"+# to Level of all Wither Gems","better":1,"matchers":[{"string":"全部 死亡凋零 寶石等級 #","advanced":"全部 死亡凋零(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_140"]}}}
-{"ref":"+# to Level of all Withering Step Gems","better":1,"matchers":[{"string":"全部 凋零之步 寶石等級 #","advanced":"全部 凋零之步(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_207"]}}}
-{"ref":"+# to Level of all Wrath Gems","better":1,"matchers":[{"string":"全部 雷霆 寶石等級 #","advanced":"全部 雷霆(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_70"]}}}
-{"ref":"+# to Level of all Zealotry Gems","better":1,"matchers":[{"string":"全部 狂熱 寶石等級 #","advanced":"全部 狂熱(火球-武裝召喚) 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_193"]}}}
+{"ref":"+# to Level of all Vampiric Link Gems","better":1,"matchers":[{"string":"全部 連結：吸血 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_266"]}}}
+{"ref":"+# to Level of all Vengeance Gems","better":1,"matchers":[{"string":"全部 復仇 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_49"]}}}
+{"ref":"+# to Level of all Venom Gyre Gems","better":1,"matchers":[{"string":"全部 猛毒迴旋 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_208"]}}}
+{"ref":"+# to Level of all Vigilant Strike Gems","better":1,"matchers":[{"string":"全部 戒備打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_129"]}}}
+{"ref":"+# to Level of all Viper Strike Gems","better":1,"matchers":[{"string":"全部 毒蛇打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_35"]}}}
+{"ref":"+# to Level of all Vitality Gems","better":1,"matchers":[{"string":"全部 活力 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_64"]}}}
+{"ref":"+# to Level of all Void Sphere Gems","better":1,"matchers":[{"string":"全部 虛空天體 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_234"]}}}
+{"ref":"+# to Level of all Volatile Dead Gems","better":1,"matchers":[{"string":"全部 致命之息 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_163"]}}}
+{"ref":"+# to Level of all Volcanic Fissure Gems","better":1,"matchers":[{"string":"全部 炎火脈動 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_272"]}}}
+{"ref":"+# to Level of all Voltaxic Burst Gems","better":1,"matchers":[{"string":"全部 魔痕爆發 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_249"]}}}
+{"ref":"+# to Level of all Vortex Gems","better":1,"matchers":[{"string":"全部 靈漩 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_154"]}}}
+{"ref":"+# to Level of all Vulnerability Gems","better":1,"matchers":[{"string":"全部 脆弱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_170"]}}}
+{"ref":"+# to Level of all War Banner Gems","better":1,"matchers":[{"string":"全部 征戰之旗 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_184"]}}}
+{"ref":"+# to Level of all Warlord's Mark Gems","better":1,"matchers":[{"string":"全部 督軍印記 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_40"]}}}
+{"ref":"+# to Level of all Wave of Conviction Gems","better":1,"matchers":[{"string":"全部 信念浪湧 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_192"]}}}
+{"ref":"+# to Level of all Whirling Blades Gems","better":1,"matchers":[{"string":"全部 迴旋之刃 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_13"]}}}
+{"ref":"+# to Level of all Wild Strike Gems","better":1,"matchers":[{"string":"全部 野性打擊 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_133"]}}}
+{"ref":"+# to Level of all Winter Orb Gems","better":1,"matchers":[{"string":"全部 凜冬之球 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_180"]}}}
+{"ref":"+# to Level of all Wintertide Brand Gems","better":1,"matchers":[{"string":"全部 冬潮烙印 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_227"]}}}
+{"ref":"+# to Level of all Wither Gems","better":1,"matchers":[{"string":"全部 死亡凋零 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_140"]}}}
+{"ref":"+# to Level of all Withering Step Gems","better":1,"matchers":[{"string":"全部 凋零之步 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_207"]}}}
+{"ref":"+# to Level of all Wrath Gems","better":1,"matchers":[{"string":"全部 暴怒 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_70"]}}}
+{"ref":"+# to Level of all Zealotry Gems","better":1,"matchers":[{"string":"全部 狂熱 寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.indexable_skill_193"]}}}
 {"ref":"+# to Level of Socketed AoE Gems","better":1,"matchers":[{"string":"插槽中範圍效果寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_2551600084"],"implicit":["implicit.stat_2551600084"],"fractured":["fractured.stat_2551600084"],"scourge":["scourge.stat_2551600084"],"crafted":["crafted.stat_2551600084"]}}}
 {"ref":"+# to Level of Socketed Aura Gems","better":1,"matchers":[{"string":"此物品插槽中光環寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_2452998583"],"implicit":["implicit.stat_2452998583"],"fractured":["fractured.stat_2452998583"],"scourge":["scourge.stat_2452998583"]}}}
 {"ref":"+# to Level of Socketed Bow Gems","better":1,"matchers":[{"string":"此物品插槽中弓寶石等級 #"}],"trade":{"ids":{"explicit":["explicit.stat_2027269580"],"implicit":["implicit.stat_2027269580"],"fractured":["fractured.stat_2027269580"]}}}
@@ -2212,7 +2205,6 @@
 {"ref":"+# to Maximum Frenzy Charges","better":1,"matchers":[{"string":"# 最大狂怒球"}],"trade":{"ids":{"explicit":["explicit.stat_4078695"],"implicit":["implicit.stat_4078695"],"fractured":["fractured.stat_4078695"],"scourge":["scourge.stat_4078695"]}}}
 {"ref":"+# to Maximum Frenzy Charges while affected by Grace","better":1,"matchers":[{"string":"被優雅影響時，# 最大狂怒球"}],"trade":{"ids":{"explicit":["explicit.stat_3458080964"]}}}
 {"ref":"+# to maximum Life","better":1,"matchers":[{"string":"# 最大生命"}],"trade":{"ids":{"explicit":["explicit.stat_3299347043"],"implicit":["implicit.stat_3299347043"],"fractured":["fractured.stat_3299347043"],"scourge":["scourge.stat_3299347043"],"crafted":["crafted.stat_3299347043"]}}}
-{"ref":"+# to maximum Life for each Empty Red Socket on any Equipped Item","better":1,"matchers":[{"string":"裝備中每個空的紅色插槽，# 最大生命"}],"trade":{"ids":{"explicit":["explicit.stat_726359715"]}}}
 {"ref":"+# to maximum Life if there are no Life Modifiers on other Equipped Items","better":1,"matchers":[{"string":"若其它裝備的物品沒有生命詞綴，# 最大生命"}],"trade":{"ids":{"explicit":["explicit.stat_2927667525"]}}}
 {"ref":"+# to Maximum Life per 10 Dexterity","better":1,"matchers":[{"string":"每 10 點敏捷增加 # 最大生命"}],"trade":{"ids":{"explicit":["explicit.stat_3806100539"]}}}
 {"ref":"+# to Maximum Life per 10 Intelligence","better":1,"matchers":[{"string":"每 10 點智慧 # 最大生命"}],"trade":{"ids":{"explicit":["explicit.stat_1114351662"]}}}
@@ -2829,7 +2821,7 @@
 {"ref":"1 Added Passive Skill is Winter Prowler","better":1,"matchers":[{"string":"1 個附加的天賦為冬季竊賊"}],"trade":{"ids":{"explicit":["explicit.stat_755881431"]}}}
 {"ref":"1 Added Passive Skill is Wizardry","better":1,"matchers":[{"string":"1 個附加的天賦為巫術"}],"trade":{"ids":{"explicit":["explicit.stat_3078065247"]}}}
 {"ref":"1 Added Passive Skill is Wound Aggravation","better":1,"matchers":[{"string":"1 個附加的天賦為創傷加劇"}],"trade":{"ids":{"explicit":["explicit.stat_69078820"],"fractured":["fractured.stat_69078820"]}}}
-{"ref":"1 Added Passive Skill is Wrapped in Flame","better":1,"matchers":[{"string":"1 個附加的天賦為火焰包覆"}],"trade":{"ids":{"explicit":["explicit.stat_241783558"],"fractured":["fractured.stat_241783558"]}}}
+{"ref":"1 Added Passive Skill is Wrapped in Flame","better":1,"matchers":[{"string":"1 個附加的天賦為火焰包覆"}],"trade":{"ids":{"explicit":["explicit.stat_241783558"]}}}
 {"ref":"1% increased Armour per # Strength when in Off Hand","better":1,"matchers":[{"string":"在副手，每 # 力量增加 1% 護甲"}],"trade":{"ids":{"explicit":["explicit.stat_2192181096"]}}}
 {"ref":"1% increased Attack Damage per 200 of the lowest of Armour and Evasion Rating","better":1,"matchers":[{"string":"護甲與閃避值兩者較低的數值每 200 點增加 1% 攻擊傷害"}],"trade":{"ids":{"explicit":["explicit.stat_1358422215"]}}}
 {"ref":"1% increased Claw Physical Damage per # Dexterity Allocated in Radius","better":1,"matchers":[{"string":"範圍內配置每 # 敏捷增加爪類武器 1% 物理傷害"}],"trade":{"ids":{"explicit":["explicit.stat_1619923327"]}}}
@@ -3188,7 +3180,7 @@
 {"ref":"Aureus Coins are converted to Experience upon defeating the Herald of the Scourge","better":1,"matchers":[{"string":"災魘先鋒後，奧瑞厄斯幣轉化至經驗"}],"trade":{"ids":{"explicit":["sanctum.stat_1307773596"]}}}
 {"ref":"Aureus Coins are converted to Relics upon defeating the Herald of the Scourge","better":1,"matchers":[{"string":"災魘先鋒後，奧瑞厄斯幣轉化至聖物"}],"trade":{"ids":{"explicit":["sanctum.stat_315260783"]}}}
 {"ref":"Aureus Coins are converted to Tainted Currency upon defeating the Herald of the Scourge","better":1,"matchers":[{"string":"擊敗災魘先鋒時，奧瑞厄斯幣轉化至玷汙通貨"}],"trade":{"ids":{"explicit":["sanctum.stat_1019656601"]}}}
-{"ref":"Avatar of Fire","better":1,"matchers":[{"string":"火之化身"}],"trade":{"ids":{"explicit":["explicit.stat_346029096"],"fractured":["fractured.stat_346029096"],"scourge":["scourge.stat_346029096"]}}}
+{"ref":"Avatar of Fire","better":1,"matchers":[{"string":"火之化身"}],"trade":{"ids":{"explicit":["explicit.stat_346029096"],"scourge":["scourge.stat_346029096"]}}}
 {"ref":"Ball Lightning fires an additional Projectile","better":1,"matchers":[{"string":"天雷之珠發射 # 個額外投射物"},{"string":"天雷之珠發射 1 個額外投射物","value":1}],"trade":{"ids":{"enchant":["enchant.stat_3420683028"]}}}
 {"ref":"Bane deals #% increased Damage","better":1,"matchers":[{"string":"災厄增加 #% 傷害"},{"string":"災厄減少 #% 傷害","negate":true}],"trade":{"ids":{"enchant":["enchant.stat_2206071316"]}}}
 {"ref":"Bane has #% increased Area of Effect","better":1,"matchers":[{"string":"災厄增加 #% 範圍效果"},{"string":"災厄減少 #% 範圍效果","negate":true}],"trade":{"ids":{"enchant":["enchant.stat_4224588066"]}}}
@@ -3239,7 +3231,7 @@
 {"ref":"Boneshatter has #% chance to grant +1 Trauma","better":1,"matchers":[{"string":"碎骨有 #% 機率 +1 創傷"}],"trade":{"ids":{"enchant":["enchant.stat_2870283358"]}}}
 {"ref":"Bosses impact #% increased Resolve","better":1,"matchers":[{"string":"頭目影響增加 #% 決心"},{"string":"頭目影響減少 #% 決心","negate":true}],"trade":{"ids":{"explicit":["sanctum.stat_2207905451"]}}}
 {"ref":"Bosses take #% increased Damage","better":1,"matchers":[{"string":"頭目增加承受 #% 傷害"},{"string":"頭目減少承受 #% 傷害","negate":true}],"trade":{"ids":{"explicit":["sanctum.stat_3226329527"]}}}
-{"ref":"Bow Attacks fire # additional Arrows","better":1,"matchers":[{"string":"弓攻擊發射 # 個額外箭矢"},{"string":"弓攻擊發射 1 個額外箭矢","value":1}],"trade":{"ids":{"explicit":["explicit.stat_3885405204"],"implicit":["implicit.stat_3885405204"],"fractured":["fractured.stat_3885405204"],"scourge":["scourge.stat_3885405204"]}}}
+{"ref":"Bow Attacks fire # additional Arrows","better":1,"matchers":[{"string":"弓攻擊發射 # 個額外箭矢"},{"string":"弓攻擊發射 1 個額外箭矢","value":1}],"trade":{"ids":{"explicit":["explicit.stat_742529963"],"implicit":["implicit.stat_742529963"],"fractured":["fractured.stat_742529963"],"scourge":["scourge.stat_742529963"]}}}
 {"ref":"Bow Attacks fire # additional Arrows if you haven't Cast Dash recently","better":1,"matchers":[{"string":"若你近期沒有施放幻步，弓攻擊發射 # 支額外箭矢"}],"trade":{"ids":{"explicit":["explicit.stat_2482927318"]}}}
 {"ref":"Bow Attacks have Culling Strike","better":1,"matchers":[{"string":"弓攻擊有撲殺"}],"trade":{"ids":{"explicit":["explicit.stat_4217693429"]}}}
 {"ref":"Bow Knockback at Close Range","better":1,"matchers":[{"string":"近距離時弓擊退敵人"}],"trade":{"ids":{"explicit":["explicit.stat_3261557635"]}}}
@@ -3353,7 +3345,7 @@
 {"ref":"Chaos Skills have #% chance to Ignite","better":1,"matchers":[{"string":"混沌技能有 #% 機率點燃"}],"trade":{"ids":{"explicit":["explicit.stat_3573128085"]}}}
 {"ref":"Chaos Skills have #% increased Skill Effect Duration","better":1,"matchers":[{"string":"增加 #% 混沌技能效果持續時間"},{"string":"減少 #% 混沌技能效果持續時間","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_289885185"],"fractured":["fractured.stat_289885185"],"crafted":["crafted.stat_289885185"]}}}
 {"ref":"Charged Dash has #% more Movement Speed","better":1,"matchers":[{"string":"雷霆衝鋒有 #% 更多移動速度"},{"string":"雷霆衝鋒有 #% 更少移動速度","negate":true}],"trade":{"ids":{"enchant":["enchant.stat_797408710"]}}}
-{"ref":"Charged Dash has +# metre to radius of each Wave's last damage Area","better":1,"matchers":[{"string":"雷霆衝鋒每波的最後傷害範圍 # 米範圍"}],"trade":{"ids":{"enchant":["enchant.stat_2898302567"]}}}
+{"ref":"Charged Dash has +# to Radius of each Wave's last damage Area","better":1,"matchers":[{"string":"雷霆衝鋒每波的最後傷害範圍 # 範圍"}],"trade":{"ids":{"enchant":["enchant.stat_2898302567"]}}}
 {"ref":"Chests have #% chance to drop Double Aureus Coins","better":1,"matchers":[{"string":"保險箱有 #% 機率掉落 2 倍奧瑞厄斯幣"}],"trade":{"ids":{"explicit":["sanctum.stat_3926246735"]}}}
 {"ref":"Chests have #% increased Item Quantity","better":1,"matchers":[{"string":"箱子增加 #% 物品數量"},{"string":"箱子減少 #% 物品數量","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1502389239"]}}}
 {"ref":"Chill Effect and Freeze Duration on you are based on #% of Energy Shield","better":1,"matchers":[{"string":"冰緩和冰凍持續時間根據你 #% 的能量護盾計算"}],"trade":{"ids":{"explicit":["explicit.stat_1194648995"]}}}
@@ -3650,7 +3642,6 @@
 {"ref":"Every 16 seconds you gain Elemental Overload for 8 seconds","better":1,"matchers":[{"string":"每 16 秒獲得 8 秒的元素超載"}],"trade":{"ids":{"explicit":["explicit.stat_708913352"]}}}
 {"ref":"Every 16 seconds you gain Iron Reflexes for 8 seconds","better":1,"matchers":[{"string":"每 16 秒獲得 8 秒的霸體"}],"trade":{"ids":{"explicit":["explicit.stat_2200114771"]}}}
 {"ref":"Every 4 seconds, Regenerate #% of Life over one second","better":1,"matchers":[{"string":"每 4 秒在 1 秒內回復 #% 生命"}],"trade":{"ids":{"explicit":["explicit.stat_1242155304"]}}}
-{"ref":"Every 4 seconds, remove Curses and Elemental Ailments from you","better":1,"matchers":[{"string":"每 4 秒，移除你身上的詛咒和元素異常狀態"}],"trade":{"ids":{"explicit":["explicit.stat_2189230542"]}}}
 {"ref":"Every 5 seconds, gain one of the following for 5 seconds:\nYour Hits are always Critical Strikes\nHits against you are always Critical Strikes\nAttacks cannot Hit you\nAttacks against you always Hit\nYour Damage with Hits is Lucky\nDamage of Hits against you is Lucky","better":1,"matchers":[{"string":"每 5 秒，獲得 1 個下列效果 5 秒:\n你的擊中必定暴擊\n對你的擊中必定暴擊\n攻擊不能擊中你\n對你的攻擊必定擊中\n你的擊中傷害很幸運\n對你的擊中傷害很幸運"}],"trade":{"ids":{"explicit":["explicit.stat_2501671832"]}}}
 {"ref":"Every 8 seconds, gain Avatar of Fire for 4 seconds","better":1,"matchers":[{"string":"每 8 秒獲得 4 秒的火之化身"}],"trade":{"ids":{"explicit":["explicit.stat_3345955207"]}}}
 {"ref":"Excavated Chests have a #% chance to contain twice as many Items","better":1,"fromAreaMods":true,"matchers":[{"string":"發掘的保險箱有 #% 機率含有 2 倍的物品"}],"trade":{"ids":{"implicit":["implicit.stat_3239978999"]}}}
@@ -3786,7 +3777,7 @@
 {"ref":"Gain #% of Lightning Damage as Extra Cold Damage per 2% Shock Effect on Enemy","better":1,"matchers":[{"string":"敵人身上每 2% 感電效果，獲得 #% 閃電傷害的額外冰冷傷害"}],"trade":{"ids":{"explicit":["explicit.stat_13172430"]}}}
 {"ref":"Gain #% of Maximum Life as Extra Maximum Energy Shield","better":1,"matchers":[{"string":"獲得等同 #% 最大生命值的額外能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_67280387"],"implicit":["implicit.stat_67280387"],"fractured":["fractured.stat_67280387"],"crafted":["crafted.stat_67280387"]}}}
 {"ref":"Gain #% of Maximum Mana as Extra Maximum Energy Shield","better":1,"matchers":[{"string":"獲得等同 #% 魔力的額外能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_2663376056"],"scourge":["scourge.stat_2663376056"]}}}
-{"ref":"Gain #% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity","better":1,"matchers":[{"string":"被清晰的影響時，獲得等同 #% 最大魔力的額外最大能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_2831391506"]}}}
+{"ref":"Gain #% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity","better":1,"matchers":[{"string":"被清晰的影響時，獲得等同於 #% 最大魔力的額外最大能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_2831391506"]}}}
 {"ref":"Gain #% of Missing Unreserved Life before being Hit by an Enemy","better":1,"matchers":[{"string":"被敵人擊中前，獲得 #% 遺失未保留的生命"}],"trade":{"ids":{"explicit":["explicit.stat_1383676476"]}}}
 {"ref":"Gain #% of Non-Chaos Damage as extra Chaos Damage","better":1,"matchers":[{"string":"獲得等同 #% 非混沌傷害的額外混沌傷害"}],"trade":{"ids":{"explicit":["explicit.stat_2063695047"],"fractured":["fractured.stat_2063695047"],"crafted":["crafted.stat_2063695047"]}}}
 {"ref":"Gain #% of Non-Chaos Damage as extra Chaos Damage per Siphoning Charge","better":1,"matchers":[{"string":"每顆虹吸能量球獲得 #% 非混沌傷害的額外混沌傷害"}],"trade":{"ids":{"explicit":["explicit.stat_3296019532"]}}}
@@ -4447,7 +4438,6 @@
 {"ref":"Maximum Affliction Charges is equal to Maximum Frenzy Charges","better":1,"matchers":[{"string":"最大苦痛球等於最大狂怒球"}],"trade":{"ids":{"explicit":["explicit.stat_2817027713"]}}}
 {"ref":"Maximum Brutal Charges is equal to Maximum Endurance Charges","better":1,"matchers":[{"string":"最大殘暴球等於最大耐力球"}],"trade":{"ids":{"explicit":["explicit.stat_3710150470"]}}}
 {"ref":"Maximum Critical Strike Chance is 50%","better":1,"matchers":[{"string":"最大暴擊率為 50%"}],"trade":{"ids":{"explicit":["explicit.stat_1463929958"]}}}
-{"ref":"Maximum Quality is #%","better":1,"matchers":[{"string":"最大品質為 #%"}],"trade":{"ids":{"explicit":["explicit.stat_275498888"]}}}
 {"ref":"Maximum Resolve is 1","better":1,"matchers":[{"string":"最大決心為 1"}],"trade":{"ids":{"explicit":["sanctum.stat_1471840332"]}}}
 {"ref":"Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers","better":1,"matchers":[{"string":"範圍內近戰和近戰武器加成轉換成弓類武器加成"}],"trade":{"ids":{"explicit":["explicit.stat_854030602"]}}}
 {"ref":"Melee Attacks have #% chance to cause Bleeding","better":1,"matchers":[{"string":"近戰攻擊有 #% 機率造成流血效果"},{"string":"近戰攻擊造成流血效果","value":100}],"trade":{"ids":{"explicit":["explicit.stat_1285056331"]}}}
@@ -4548,7 +4538,7 @@
 {"ref":"Minions summoned by Your Summoning Towers have #% increased Life","better":1,"anointments":[{"roll":50,"oils":"4,11"}],"matchers":[{"string":"你召喚塔召喚的召喚物增加 #% 生命"},{"string":"你召喚塔召喚的召喚物減少 #% 生命","negate":true}],"trade":{"ids":{"enchant":["enchant.stat_3651039490"]}}}
 {"ref":"Minions summoned by Your Summoning Towers have #% increased Movement Speed","better":1,"anointments":[{"roll":25,"oils":"4,10"}],"matchers":[{"string":"你召喚塔召喚的召喚物增加 #% 移動速度"},{"string":"你召喚塔召喚的召喚物減少 #% 移動速度","negate":true}],"trade":{"ids":{"enchant":["enchant.stat_1378482149"]}}}
 {"ref":"Minions take #% reduced Reflected Damage","better":-1,"matchers":[{"string":"召喚物增加承受 #% 反射傷害"},{"string":"召喚物減少承受 #% 反射傷害","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_3056045252"]},"inverted":true}}
-{"ref":"Minions' Base Attack Critical Strike Chance is equal to the Critical\nStrike Chance of your Main Hand Weapon","better":1,"matchers":[{"string":"召喚物的基礎攻擊暴擊率\n等同你主手武器的暴擊率"}],"trade":{"ids":{"explicit":["explicit.stat_3700085184"]}}}
+{"ref":"Minions' Base Attack Critical Strike Chance is equal to the Critical\nStrike Chance of your Main Hand Weapon","better":1,"matchers":[{"string":"召喚物的基礎工擊暴擊率\n等同於你主手武器的暴擊率"}],"trade":{"ids":{"explicit":["explicit.stat_3700085184"]}}}
 {"ref":"Minions' Hits can only Kill Ignited Enemies","better":1,"matchers":[{"string":"召喚物擊中只能擊殺點燃敵人"}],"trade":{"ids":{"explicit":["explicit.stat_1736403946"]}}}
 {"ref":"Mirror Arrow and Mirror Arrow Clones deal #% increased Damage","better":1,"matchers":[{"string":"增加魅影射擊和其召喚物 #% 傷害"},{"string":"減少魅影射擊和其召喚物 #% 傷害","negate":true}],"trade":{"ids":{"enchant":["enchant.stat_4136186767"]}}}
 {"ref":"Mirror Arrow and Mirror Arrow Clones have #% increased Attack Speed","better":1,"matchers":[{"string":"增加魅影射擊和魅影射擊召喚物 #% 攻擊速度"},{"string":"減少魅影射擊和魅影射擊召喚物 #% 攻擊速度","negate":true}],"trade":{"ids":{"enchant":["enchant.stat_3653459847"]}}}
@@ -4664,7 +4654,6 @@
 {"ref":"Nearby Enemies are Intimidated","better":1,"matchers":[{"string":"附近敵人受到威嚇"}],"trade":{"ids":{"explicit":["explicit.stat_2899095498"]}}}
 {"ref":"Nearby Enemies are Scorched","better":1,"matchers":[{"string":"附近敵人被焦灼"}],"trade":{"ids":{"explicit":["explicit.stat_3733114005"]}}}
 {"ref":"Nearby Enemies cannot deal Critical Strikes","better":1,"matchers":[{"string":"附近敵人不能造成暴擊"}],"trade":{"ids":{"explicit":["explicit.stat_1177959871"]}}}
-{"ref":"Nearby Enemies cannot gain Power, Frenzy or Endurance Charges","better":1,"matchers":[{"string":"附近敵人不能獲得暴擊、狂怒或耐力球"}],"trade":{"ids":{"explicit":["explicit.stat_4031527864"]}}}
 {"ref":"Nearby Enemies Convert #% of their Physical Damage to Fire","better":1,"matchers":[{"string":"附近敵人轉化 #% 它們的物理傷害至火焰"}],"trade":{"ids":{"explicit":["explicit.stat_3729324251"]}}}
 {"ref":"Nearby Enemies grant #% increased Flask Charges","better":1,"matchers":[{"string":"附近敵人給予增加 #% 藥劑充能"},{"string":"附近敵人給予減少 #% 藥劑充能","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3547189490"]}}}
 {"ref":"Nearby Enemies have #% increased Effect of Curses on them","better":1,"matchers":[{"string":"附近敵人增加 #% 被詛咒的效果"}],"trade":{"ids":{"explicit":["explicit.stat_443525707"]}}}
@@ -4700,7 +4689,6 @@
 {"ref":"Non-Chilled Enemies you Poison are Chilled","better":1,"matchers":[{"string":"你造成中毒的非冰緩敵人被冰緩"}],"trade":{"ids":{"explicit":["explicit.stat_3998191356"]}}}
 {"ref":"Non-critical strikes deal #% more Damage","better":1,"matchers":[{"string":"非暴擊造成 #% 更多傷害"},{"string":"非暴擊造成 #% 更少傷害","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1711683262"]}}}
 {"ref":"Non-Critical Strikes deal no Damage","better":1,"matchers":[{"string":"非暴擊不能造成傷害"}],"trade":{"ids":{"explicit":["explicit.stat_2511969244"]}}}
-{"ref":"Non-Damaging Ailments have #% increased Effect on you while you have Arcane Surge","better":1,"matchers":[{"string":"當你有秘能波動時，增加 #% 你身上非傷害型異常狀態的效果"},{"string":"當你有秘能波動時，減少 #% 你身上非傷害型異常狀態的效果","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3014823981"]}}}
 {"ref":"Non-Exerted Attacks deal no Damage","better":1,"matchers":[{"string":"非竭盡攻擊不會造成傷害"}],"trade":{"ids":{"explicit":["explicit.stat_3303984198"]}}}
 {"ref":"Non-instant Mana Recovery from Flasks is also Recovered as Life","better":1,"matchers":[{"string":"非立即透過藥劑恢復魔力也會恢復生命"}],"trade":{"ids":{"explicit":["explicit.stat_2262007777"]}}}
 {"ref":"Non-Unique Heist Contracts found in your Maps have #% chance to have an additional Implicit Modifier","better":1,"matchers":[{"string":"你地圖中掉落的非傳奇劫盜契約書有 #% 機率有 1 個額外固定詞綴"},{"string":"區域中掉落的非傳奇劫盜契約書有 #% 機率有 1 個額外固定詞綴"},{"string":"你地圖中掉落的非傳奇劫盜契約書有 1 個額外固定詞綴","value":100},{"string":"區域中掉落的非傳奇劫盜契約書有 1 個額外固定詞綴","value":100}],"trade":{"ids":{"enchant":["enchant.stat_2256808958"]}}}
@@ -5091,6 +5079,7 @@
 {"ref":"Resolute Technique","better":1,"matchers":[{"string":"堅毅之心"}],"trade":{"ids":{"explicit":["explicit.stat_3943945975"],"implicit":["implicit.stat_3943945975"],"scourge":["scourge.stat_3943945975"]}}}
 {"ref":"Resolve Aegis Recovers #% faster while not losing Resolve","better":1,"matchers":[{"string":"沒有失去決心時，決心護盾加速 #% 恢復"},{"string":"沒有失去決心時，決心護盾減緩 #% 恢復","negate":true}],"trade":{"ids":{"explicit":["sanctum.stat_3889616543"]}}}
 {"ref":"Resolve Mitigation from Enemy Hits is based on +#% of Armour","better":1,"matchers":[{"string":"敵人擊中會根據 #% 護甲使決心輕減"}],"trade":{"ids":{"explicit":["sanctum.stat_3621177126"]}}}
+{"ref":"Restless Dead","better":1,"matchers":[{"string":"無限復生"}],"trade":{"ids":{"explicit":["explicit.stat_3303551725"]}}}
 {"ref":"Restores Ward on use","better":1,"matchers":[{"string":"使用時回復保護"}],"trade":{"ids":{"implicit":["implicit.stat_2451856207"]}}}
 {"ref":"Reused at the end of this Flask's effect","better":1,"matchers":[{"string":"藥劑效果結束時再次使用"}],"trade":{"ids":{"enchant":["enchant.stat_1932727102"]}}}
 {"ref":"Reward Room Monsters deal #% increased Damage","better":1,"fromHeistAreaMods":true,"matchers":[{"string":"獎勵房怪物增加 #% 傷害"},{"string":"獎勵房怪物減少 #% 傷害","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1390113017"],"fractured":["fractured.stat_1390113017"]}}}
@@ -5122,6 +5111,7 @@
 {"ref":"Rogue Perks are doubled","better":1,"matchers":[{"string":"盜賊補貼有 #% 更多有效"},{"string":"盜賊補貼為 2 倍","value":100}],"trade":{"ids":{"enchant":["enchant.stat_898812928"]}}}
 {"ref":"Rolling Magma Chains an additional time","better":1,"matchers":[{"string":"增加熔岩翻騰 # 次額外連鎖"},{"string":"增加熔岩翻騰 1 次額外連鎖","value":1}],"trade":{"ids":{"enchant":["enchant.stat_2589980605"]}}}
 {"ref":"Rooms are unknown on the Sanctum Map","better":1,"matchers":[{"string":"聖域地圖上房間為未知"}],"trade":{"ids":{"explicit":["sanctum.stat_3237367570"]}}}
+{"ref":"Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1 second","better":1,"matchers":[{"string":"若過去 1 秒你沒有引爆符文，符文爆破會將你傳送至爆破的符文"}],"trade":{"ids":{"enchant":["enchant.stat_4059221381"]}}}
 {"ref":"Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds","better":1,"matchers":[{"string":"若過去 1.5 秒你沒有引爆符文，符文爆破會將你傳送至爆破的符文"}],"trade":{"ids":{"enchant":["enchant.stat_242209782"]}}}
 {"ref":"Runebinder","better":1,"matchers":[{"string":"束縛印"}],"trade":{"ids":{"explicit":["explicit.stat_4080245957"],"scourge":["scourge.stat_4080245957"]}}}
 {"ref":"Sacrifice #% of Life to gain that much Energy Shield when you Cast a Spell","better":1,"matchers":[{"string":"當你施放法術時獻祭 #% 生命獲得等同其值的能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_613752285"]}}}
@@ -5303,7 +5293,7 @@
 {"ref":"Socketed Gems are Supported by Level # Focused Ballista","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的專注砲塔輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_138","explicit.stat_921536976"]}}}
 {"ref":"Socketed Gems are supported by Level # Fork","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的分裂輔助"}],"trade":{"ids":{"explicit":["explicit.stat_2062753054"],"implicit":["implicit.stat_2062753054"]}}}
 {"ref":"Socketed Gems are Supported by Level # Fortify","better":1,"matchers":[{"string":"此物品插槽中寶石受到等級 # 的護體輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_79","explicit.stat_107118693"],"implicit":["implicit.stat_107118693"]}}}
-{"ref":"Socketed Gems are Supported by Level # Fresh Meat","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的鮮肉輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_153","explicit.stat_3713917371"]}}}
+{"ref":"Socketed Gems are Supported by Level # Fresh Meat","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的鮮肉輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_153"]}}}
 {"ref":"Socketed Gems are Supported by Level # Frigid Bond","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的酷寒之繫輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_159"]}}}
 {"ref":"Socketed Gems are Supported by Level # Generosity","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的和善輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_77","explicit.stat_2593773031"]}}}
 {"ref":"Socketed Gems are Supported by Level # Greater Multiple Projectiles","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的高階多重投射輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_1","explicit.stat_359450079"]}}}
@@ -5366,7 +5356,7 @@
 {"ref":"Socketed Gems are Supported by Level # Prismatic Burst","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的三相爆發輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_148"]}}}
 {"ref":"Socketed Gems are Supported by Level # Pulverise","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的磨鍊輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_29","explicit.stat_282757414"]}}}
 {"ref":"Socketed Gems are Supported by Level # Rage","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的盛怒輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_28","explicit.stat_369650395"]}}}
-{"ref":"Socketed Gems are Supported by Level # Returning Projectiles","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的返回投射物輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_149","explicit.stat_52197415"]}}}
+{"ref":"Socketed Gems are Supported by Level # Returning Projectiles","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的返回投射物輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_149"]}}}
 {"ref":"Socketed Gems are Supported by Level # Ruthless","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的殘暴輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_21","explicit.stat_3796013729"]}}}
 {"ref":"Socketed Gems are Supported by Level # Sacrifice","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的獻祭輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_158"]}}}
 {"ref":"Socketed Gems are Supported by Level # Sadism","better":1,"matchers":[{"string":"插槽中寶石被等級 # 的虐待輔助"}],"trade":{"ids":{"explicit":["explicit.indexable_support_161","explicit.stat_794471597"]}}}
@@ -5469,8 +5459,7 @@
 {"ref":"Spell Skills always deal Critical Strikes on final Repeat","better":1,"matchers":[{"string":"法術技能在最終重複時一定造成暴擊"}],"trade":{"ids":{"explicit":["explicit.stat_3738009328"]}}}
 {"ref":"Spell Skills cannot deal Critical Strikes except on final Repeat","better":1,"matchers":[{"string":"法術技能除了在最終重複外，不能造成暴擊"}],"trade":{"ids":{"explicit":["explicit.stat_2516869940"]}}}
 {"ref":"Spell Skills deal no Damage","better":1,"matchers":[{"string":"法術技能不能造成傷害"}],"trade":{"ids":{"explicit":["explicit.stat_291644318"]}}}
-{"ref":"Spells cause you to gain Energy Shield equal to their Upfront\nCost every fifth time you Pay it","better":1,"matchers":[{"string":"每 5 次你支付法術時，你會獲得等同它前期消耗的能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_1357409216"]}}}
-{"ref":"Spells deal added Chaos Damage equal to #% of your maximum Life","better":1,"matchers":[{"string":"法術附加等同 #% 你最大生命的混沌傷害"}],"trade":{"ids":{"explicit":["explicit.stat_3175648755"]}}}
+{"ref":"Spells cause you to gain Energy Shield equal to their Upfront\nCost every fifth time you Pay it","better":1,"matchers":[{"string":"每 5 次你支付法術時，你會獲得等同於它前期消耗的能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_1357409216"]}}}
 {"ref":"Spells fire an additional Projectile","better":1,"matchers":[{"string":"法術發射 # 個額外投射物"},{"string":"法術發射 1 個額外投射物","value":1}],"trade":{"ids":{"explicit":["explicit.stat_1011373762"]}}}
 {"ref":"Spells have #% increased Critical Strike Chance per Intensity","better":1,"matchers":[{"string":"每層強化使法術增加 #% 暴擊率"},{"string":"每層強化使法術減少 #% 暴擊率","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2923377613"]}}}
 {"ref":"Spells have a #% chance to deal Double Damage","better":1,"matchers":[{"string":"法術有 #% 機率造成 2 倍傷害"},{"string":"法術造成 2 倍傷害","value":100}],"trade":{"ids":{"explicit":["explicit.stat_2813626504"],"implicit":["implicit.stat_2813626504"]}}}
